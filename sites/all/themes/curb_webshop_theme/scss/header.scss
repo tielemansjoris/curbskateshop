@@ -30,7 +30,7 @@
 						font-weight: 400;
 						display: inline-block;
 						padding: 3px 10px 3px 5px;
-						border-right: 1px solid $white-transparent-medium;
+						border-right: 1px solid $white-transparent-high;
 						margin-top: 3px;
 
 						&:hover, &.active {
@@ -100,10 +100,32 @@
 	}
 
 	#zone-branding-wrapper {
-		background: $black-transparent-high;
+		background: $black-transparent-medium;
 
-		.logo-img {
-			display: inline-block;
+		.branding-data {
+			float: left;
+			.logo-img {
+				display: inline-block;
+				margin: 0;
+			}
+		}
+		.header-contact {
+			float: right;
+			background-color: $gray-dark-transparent;
+			color: $white;
+			padding: 20px 40px;
+			font-size: $font-size-small;
+			text-transform: uppercase;
+			margin-right: -20px;
+			a {
+				color: $white;
+				&:hover {
+					color: $orange;
+				}
+			}
+			h2 {
+				margin-bottom: 10px;
+			}
 		}
 	}
 }

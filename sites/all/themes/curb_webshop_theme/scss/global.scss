@@ -95,10 +95,12 @@ table {
     padding: 5px 10px;
   }
 }
-ul {
+ul, ul.menu {
   margin-left: 10px;
+  list-style: none;
   li {
    margin-left: 10px;
+   list-style: none;
   }
 }
 /**
@@ -232,7 +234,6 @@ select {
 **********************************************/
 .zone-user-wrapper {
   background-color: $topbarbackground;
-  height: 34px;
   width: 100%;
 }
 .zone-user {
@@ -3213,3 +3214,9 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
     padding: 10px 10px 20px 10px;
   }
 }
+
+// Global font styles
+a, p, ul, ol, li, img, span, strong, em {
+  font-family: 'Open Sans', sans-serif;
+}
+

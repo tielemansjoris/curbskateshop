@@ -1,6 +1,6 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* Include Default Variables & Mixins */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* End Variables & Mixins */
 /**************************************************
 * --
@@ -220,3 +220,5 @@ ol.inline.commerce-checkout-progress li {
 .page-user-addressbook .field-name-commerce-customer-address .addressfield-container-inline > div.form-item {
   float: none;
   margin: 0; }
+
+/*# sourceMappingURL=ie-lte-7.css.map */

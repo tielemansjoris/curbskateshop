@@ -1,0 +1,38 @@
+@import 'variables';
+#section-header {
+	background: #ffffff url("../images/background_header.jpg") no-repeat top left;
+	background-size: 100%;
+
+	#zone-user-wrapper {
+		background: $black-transparent-light;
+		border-bottom: 5px solid $black-transparent-border;
+
+		#region-user-first {
+			ul.menu {
+				margin-left: 0;
+				a {
+					color: $white;
+					font-size: $font-size-medium;
+					text-transform: uppercase;
+					font-weight: 300;
+					&:hover {
+					}
+				}
+				li {
+					display: inline-block;
+				}
+			}
+		}
+		#region-user-second {
+			background-color: transparent;
+		}
+	}
+
+	#zone-branding-wrapper {
+		background: $black-transparent-high;
+
+		.logo-img {
+			display: inline-block;
+		}
+	}
+}

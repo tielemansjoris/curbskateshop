@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 
 $bodybg: #FFF;
@@ -42,3 +42,14 @@ $footermenuheadercolor: #666;
 $footermenulinkcolor: #999;
 
 $footer2bg: #CCC;
+
+//COLORS
+$black: rgb(0,0,0);
+$white: rgb(255,255,255);
+$black-transparent-light: rgba(0,0,0,0.7);
+$black-transparent-medium: rgba(0,0,0,0.5);
+$black-transparent-high: rgba(0,0,0,0.3);
+$black-transparent-border: rgba(0,0,0,0.1);
+
+// FONTS
+$font-size-medium: 14px;

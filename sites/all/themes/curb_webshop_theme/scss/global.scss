@@ -343,13 +343,13 @@ select {
       }
       .view-empty p {
         float: left; /* LTR */
-        line-height: 30px;
+        line-height: 34px;
       }
       .line-item-summary {
         display: inline;
         float: left; /* LTR */
         height: 34px;
-        line-height: 30px;
+        line-height: 34px;
         margin: 0;
 
         .line-item-quantity {
@@ -362,7 +362,7 @@ select {
           font-family: $headerfont;
           font-weight: 300;
           height: 100%;
-          line-height: 30px;
+          line-height: 34px;
           padding: 0 12px 0 6px;
         }
         .line-item-total-label {
@@ -377,7 +377,7 @@ select {
           font-family: $headerfont;
           font-weight: 300;
           height: 100%;
-          line-height: 30px;
+          line-height: 34px;
           margin: 0 0 0 5px; /* LTR */
           padding: 0 10px;
           li {
@@ -401,7 +401,7 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: 50px 0 15px 0;
+  margin: $global-margin 0 $global-margin 0;
 
   .logo-img {
     float: none;

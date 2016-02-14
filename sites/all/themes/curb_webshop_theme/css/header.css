@@ -63,10 +63,14 @@
             font-size: 16px;
             padding-right: 5px;
             position: absolute;
-            top: 3px;
+            top: 6px;
             left: 8px; }
           #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty p {
             font-weight: 300; }
+          #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty .line-item-summary ul.links:hover {
+            background-color: #7d7d7d; }
+          #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty .line-item-summary ul.links a {
+            text-decoration: none; }
   #section-header #zone-branding-wrapper {
     background: rgba(0, 0, 0, 0.3); }
     #section-header #zone-branding-wrapper .logo-img {

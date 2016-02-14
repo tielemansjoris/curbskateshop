@@ -69,18 +69,29 @@
 			}
 
 			#block-views-shopping-cart-block {
-				background: $gray;
+				background: $gray-dark;
 				padding-left: 30px;
 				top: 3px;
+
 				.content {
 					background-color: transparent;
 					color: $white;
+
 					.view-empty {
 						&:before {
-							@include font-awesome-icon("\f07a", $white, 16px, 5px, 3px, 8px);
+							@include font-awesome-icon("\f07a", $white, 16px, 5px, 6px, 8px);
 						}
 						p{
 							font-weight: 300;
+						}
+
+						.line-item-summary ul.links {
+							&:hover {
+								background-color: $gray-medium;
+							}
+							a {
+								text-decoration: none;
+							}
 						}
 					}
 				}

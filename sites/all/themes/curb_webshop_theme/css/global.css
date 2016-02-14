@@ -311,13 +311,13 @@ select {
   .block-shopping-cart-block .content .view-shopping-cart .view-empty p {
     float: left;
     /* LTR */
-    line-height: 30px; }
+    line-height: 34px; }
   .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
     display: inline;
     float: left;
     /* LTR */
     height: 34px;
-    line-height: 30px;
+    line-height: 34px;
     margin: 0; }
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-quantity {
       color: #2698F2;
@@ -329,7 +329,7 @@ select {
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
       height: 100%;
-      line-height: 30px;
+      line-height: 34px;
       padding: 0 12px 0 6px; }
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
       display: none; }
@@ -343,7 +343,7 @@ select {
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
       height: 100%;
-      line-height: 30px;
+      line-height: 34px;
       margin: 0 0 0 5px;
       /* LTR */
       padding: 0 10px; }
@@ -360,7 +360,7 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: 50px 0 15px 0; }
+  margin: 15px 0 15px 0; }
   .zone-branding .region-branding .logo-img {
     float: none;
     margin: 10px 0;

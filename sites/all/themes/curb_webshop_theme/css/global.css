@@ -334,7 +334,7 @@ select {
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
       display: none; }
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
-      background-color: #999;
+      background-color: #b87e01;
       clear: none;
       color: #FFF;
       display: block;

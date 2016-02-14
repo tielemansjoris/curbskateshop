@@ -51,23 +51,30 @@
       background-color: transparent;
       text-align: right; }
       #section-header #zone-user-wrapper #region-user-second #block-menu-menu-user-menu, #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block {
-        display: inline-block; }
-      #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content {
-        background-color: transparent;
-        color: white; }
-        #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty:before {
-          content: "";
-          font-family: FontAwesome;
-          font-style: normal;
-          font-weight: normal;
-          text-decoration: inherit;
-          /*--adjust as necessary--*/
-          color: white;
-          font-size: 16px;
-          padding-right: 5px;
-          position: absolute;
-          top: 3px;
-          left: -20px; }
+        display: inline-block;
+        position: relative; }
+      #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block {
+        background: #373737;
+        padding-left: 30px;
+        top: 3px; }
+        #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content {
+          background-color: transparent;
+          color: white; }
+          #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty:before {
+            content: "";
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            /*--adjust as necessary--*/
+            color: white;
+            font-size: 16px;
+            padding-right: 5px;
+            position: absolute;
+            top: 3px;
+            left: 8px; }
+          #section-header #zone-user-wrapper #region-user-second #block-views-shopping-cart-block .content .view-empty p {
+            font-weight: 300; }
   #section-header #zone-branding-wrapper {
     background: rgba(0, 0, 0, 0.3); }
     #section-header #zone-branding-wrapper .logo-img {

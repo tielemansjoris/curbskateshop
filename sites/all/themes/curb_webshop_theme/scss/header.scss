@@ -65,15 +65,22 @@
 
 			#block-menu-menu-user-menu, #block-views-shopping-cart-block {
 				display: inline-block;
+				position: relative;
 			}
 
 			#block-views-shopping-cart-block {
+				background: $gray;
+				padding-left: 30px;
+				top: 3px;
 				.content {
 					background-color: transparent;
 					color: $white;
 					.view-empty {
-						&:before {	
-							@include font-awesome-icon("\f07a", $white, 16px, 5px, 3px, -20px);
+						&:before {
+							@include font-awesome-icon("\f07a", $white, 16px, 5px, 3px, 8px);
+						}
+						p{
+							font-weight: 300;
 						}
 					}
 				}

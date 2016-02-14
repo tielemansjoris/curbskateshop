@@ -4,6 +4,12 @@
 /* Include Default Variables & Mixins */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
@@ -250,10 +256,6 @@ select {
         color: #FFF;
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
-        -khtml-border-radius: 4px;
-        border-radius: 4px;
         padding: 5px 6px;
         text-decoration: none; }
         .block-menu-user-menu .content ul.menu li a.active {
@@ -285,86 +287,74 @@ select {
 
 .block-shopping-cart-block {
   margin: 0 auto;
-  margin-left: 50px;
+  margin-left: 20px;
   /* LTR */ }
-  .block-shopping-cart-block .content {
-    background-color: #ffffff;
-    background-image: url("../images/picto_cart.png");
-    background-position: 1% 48%;
+  .block-shopping-cart-block .content .view-shopping-cart .view-content,
+  .block-shopping-cart-block .content .view-shopping-cart .view-footer,
+  .block-shopping-cart-block .content .view-shopping-cart .view-empty {
+    display: inline;
+    float: left;
     /* LTR */
-    background-repeat: no-repeat;
-    float: right;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400; }
+  .block-shopping-cart-block .content .view-shopping-cart .view-content ul,
+  .block-shopping-cart-block .content .view-shopping-cart .view-content li {
+    margin: 0;
+    padding: 0; }
+  .block-shopping-cart-block .content .view-shopping-cart .view-footer {
+    display: block;
+    float: none; }
+  .block-shopping-cart-block .content .view-shopping-cart .view-empty,
+  .block-shopping-cart-block .content .view-shopping-cart .line-item-quantity {
+    margin: 0;
+    vertical-align: middle; }
+  .block-shopping-cart-block .content .view-shopping-cart .view-empty p {
+    float: left;
     /* LTR */
-    margin-left: -60px;
+    line-height: 30px; }
+  .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
+    display: inline;
+    float: left;
     /* LTR */
-    padding-left: 50px;
-    /* LTR */ }
-    .block-shopping-cart-block .content .view-shopping-cart .view-content,
-    .block-shopping-cart-block .content .view-shopping-cart .view-footer,
-    .block-shopping-cart-block .content .view-shopping-cart .view-empty {
-      display: inline;
+    height: 34px;
+    line-height: 30px;
+    margin: 0; }
+    .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-quantity {
+      color: #2698F2;
+      text-decoration: none; }
+    .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total {
+      color: #888888;
       float: left;
       /* LTR */
       font-family: "Open Sans", sans-serif;
-      font-weight: 400; }
-    .block-shopping-cart-block .content .view-shopping-cart .view-content ul,
-    .block-shopping-cart-block .content .view-shopping-cart .view-content li {
-      margin: 0;
-      padding: 0; }
-    .block-shopping-cart-block .content .view-shopping-cart .view-footer {
-      display: block;
-      float: none; }
-    .block-shopping-cart-block .content .view-shopping-cart .view-empty,
-    .block-shopping-cart-block .content .view-shopping-cart .line-item-quantity {
-      margin: 0;
-      vertical-align: middle; }
-    .block-shopping-cart-block .content .view-shopping-cart .view-empty p {
-      float: left;
-      /* LTR */
-      line-height: 30px; }
-    .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
-      display: inline;
-      float: left;
-      /* LTR */
-      height: 34px;
+      font-weight: 300;
+      height: 100%;
       line-height: 30px;
-      margin: 0; }
-      .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-quantity {
-        color: #2698F2;
-        text-decoration: none; }
-      .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total {
-        color: #888888;
-        float: left;
-        /* LTR */
-        font-family: "Open Sans", sans-serif;
-        font-weight: 300;
-        height: 100%;
-        line-height: 30px;
-        padding: 0 12px 0 6px; }
-      .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
-        display: none; }
-      .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
-        background-color: #999;
-        clear: none;
-        color: #FFF;
-        display: block;
-        float: left;
-        /* LTR */
-        font-family: "Open Sans", sans-serif;
-        font-weight: 300;
-        height: 100%;
-        line-height: 30px;
-        margin: 0 0 0 5px;
-        /* LTR */
-        padding: 0 10px; }
-        .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li {
-          margin: 0;
-          padding: 0; }
-          .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a {
-            color: #FFF;
-            font-weight: 700; }
-            .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a:hover {
-              text-decoration: underline; }
+      padding: 0 12px 0 6px; }
+    .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
+      display: none; }
+    .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
+      background-color: #999;
+      clear: none;
+      color: #FFF;
+      display: block;
+      float: left;
+      /* LTR */
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      height: 100%;
+      line-height: 30px;
+      margin: 0 0 0 5px;
+      /* LTR */
+      padding: 0 10px; }
+      .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li {
+        margin: 0;
+        padding: 0; }
+        .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a {
+          color: #FFF;
+          font-weight: 700; }
+          .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a:hover {
+            text-decoration: underline; }
 
 /**********************************************
 * 2.2. Zone branding

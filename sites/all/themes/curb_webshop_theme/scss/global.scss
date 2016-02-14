@@ -274,7 +274,6 @@ select {
         color: $color2;
         font-family: $headerfont;
         font-weight: 400;
-        @include rounded-corners(4px);
         padding: 5px 6px;
         text-decoration: none;
         &.active {
@@ -313,16 +312,9 @@ select {
 }
 .block-shopping-cart-block {
   margin: 0 auto;
-  margin-left: 50px; /* LTR */
+  margin-left: 20px; /* LTR */
 
   .content {
-    background-color: #ffffff;
-    background-image: url('../images/picto_cart.png');
-    background-position: 1% 48%; /* LTR */
-    background-repeat: no-repeat;
-    float: right; /* LTR */
-    margin-left: -60px; /* LTR */
-    padding-left: 50px; /* LTR */
 
     .view-shopping-cart {
       .view-content,

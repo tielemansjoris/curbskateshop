@@ -1,8 +1,10 @@
 @import 'variables';
 
 #section-content {
+
 	#zone-preface-wrapper {
 		background: $gray-dark;
+		border-bottom: 5px solid $gray-medium;
 		#zone-preface {
 			background: transparent;
 			padding-top: 0;
@@ -26,6 +28,30 @@
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+
+	#zone-content-wrapper {
+		background: #ffffff url("../images/content-front-bg.png") no-repeat top left;
+		background-size: 125%;
+		#zone-content {
+			padding: 35px 0;
+			h2 {
+				font-size: 18px;
+				text-transform: uppercase;
+				border-bottom: 3px solid $orange;
+				margin-bottom: 30px;
+				width: 25%;
+			}
+			.view-content {
+				margin: 0 -5px;
+				.views-row {
+					@include box-sizing(border-box);
+					padding: 0 5px; 
+					width: 24%;
+					display: inline-block;
 				}
 			}
 		}

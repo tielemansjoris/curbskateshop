@@ -1,0 +1,248 @@
+@import 'variables';
+
+#section-header {
+	background: #ffffff url("../images/background_header.jpg") no-repeat top left;
+	background-size: 100%;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	#zone-user-wrapper {
+		background: $black-transparent-light;
+		border-bottom: 5px solid $black-transparent-border;
+
+		#region-user-first, #region-user-second {
+
+			ul.menu {
+				margin-left: 0;
+
+				li {
+					display: inline-block;
+					margin: 0;
+					padding: 0;
+
+					a {
+						text-decoration: none;
+						color: $white;
+						font-size: $font-size-medium;
+						text-transform: uppercase;
+						font-weight: 400;
+						display: inline-block;
+						padding: 3px 10px 3px 5px;
+						border-right: 1px solid $white-transparent-high;
+						margin-top: 3px;
+
+						&:hover, &.active {
+							color: $orange;
+						}
+					}
+
+					&:last-child {
+						a {
+							border-right: none;
+						}
+					}
+				}
+			}
+		}
+
+		#region-user-first {
+			margin-left: 0;
+
+			ul.menu {
+				li {
+					a {
+						margin-top: 7px;
+					}
+				}
+			}
+		}
+
+		#region-user-second {
+			background-color: transparent;
+			text-align: right;
+
+			#block-menu-menu-user-menu, #block-views-shopping-cart-block {
+				display: inline-block;
+				position: relative;
+			}
+
+			#block-views-shopping-cart-block {
+				background: $gray-dark;
+				padding-left: 30px;
+				top: 3px;
+
+				.content {
+					background-color: transparent;
+					color: $white;
+
+					.view-empty {
+						&:before {
+							@include font-awesome-icon("\f07a", $white, 16px, 5px, 6px, 8px);
+						}
+						p{
+							font-weight: 300;
+						}
+
+						.line-item-summary ul.links {
+							&:hover {
+								background-color: $gray-medium;
+							}
+							a {
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#zone-branding-wrapper {
+		background: $black-transparent-medium;
+
+		.branding-data {
+			float: left;
+			.logo-img {
+				display: inline-block;
+				margin: 0;
+			}
+		}
+		.header-contact {
+			float: right;
+			background-color: $gray-dark-transparent;
+			color: $white;
+			padding: 20px 40px;
+			font-size: $font-size-small;
+			text-transform: uppercase;
+			margin-right: -20px;
+			a {
+				color: $white;
+				&:hover {
+					color: $orange;
+				}
+			}
+			h2 {
+				margin-bottom: 15px;
+			}
+			span {
+				margin-bottom: 10px;
+				display: block;
+				position: relative;
+				padding-left: 25px;
+				&.contact-adres {
+					&:before {
+						@include font-awesome-icon("\f124", $orange, 14px, 0, 0, 0);
+					}
+				}
+				&.contact-phone {
+					&:before {
+						@include font-awesome-icon("\f095", $orange, 14px, 0, 0, 0);
+					}
+				}
+				&.contact-email {
+					&:before {
+						@include font-awesome-icon("\f0e0", $orange, 14px, 0, 0, 0);
+					}
+				}
+			}
+		}
+	}
+
+	#zone-menu-wrapper {
+		background: $black-transparent-light;
+		border-top: 5px solid $black-transparent-border;
+		#region-menu {
+			margin-left: 0;
+			margin-right: 0;
+			#block-system-main-menu {
+				padding: 0;
+				float: left;
+				ul.menu {
+					margin-left: 0;
+					li {
+						width: auto;
+						margin-bottom: 0;
+						a {
+							border: none;
+							background: $gray-dark;
+							color: $white;
+							font-size: $font-size-large;
+							text-transform: uppercase;
+							border-right: 1px solid $white-transparent-high;
+							font-weight: 400;
+							padding: 10px 16px;
+							&:hover, &.active {
+								background: $orange;
+							}
+							&.home-menu {
+								text-indent: -9999999px;
+								width: 18px;
+								position: relative;
+								&:before {
+									@include font-awesome-icon("\f015", $white, 18px, 0, 0, 0);
+									text-indent: initial;
+									padding: 10px 16px;
+								}
+							}
+						}
+					}
+				}
+			}
+			#block-menu-menu-social-connection {
+				padding: 0;
+				float: right;
+				ul.menu {
+					margin-left: 0;
+					li {
+						width: auto;
+						margin-bottom: 0;
+						margin-top: 0;
+						a {
+							border: none;
+							background: $gray-dark;
+							color: $white;
+							font-size: $font-size-large;
+							text-transform: uppercase;
+							border-right: 1px solid $white-transparent-high;
+							font-weight: 400;
+							padding: 14px 16px;
+							width: 16px;
+							height: auto;
+							&:hover, &.active {
+								background: $orange;
+							}
+							text-indent: -9999999px;
+							position: relative;
+							&:before {
+								text-indent: initial;
+								padding: 10px 16px;
+							}
+							&.facebook {
+								&:before {
+									@include font-awesome-icon("\f09a", $white, 18px, 0, 5px, 4px);
+								}
+							}
+							&.twitter {
+								&:before {
+									@include font-awesome-icon("\f099", $white, 18px, 0, 5px, 0);
+								}
+							}
+							&.youtube {
+								&:before {
+									@include font-awesome-icon("\f167", $white, 18px, 0, 5px, 0);
+								}
+							}
+							&.googleplus {
+								&:before {
+									@include font-awesome-icon("\f0d5", $white, 18px, 0, 5px, 0);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

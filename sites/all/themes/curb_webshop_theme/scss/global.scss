@@ -52,6 +52,11 @@
  *   only in some versions of webkit and IE 7/8.
  * - Google maps break also, see below for fixes.
  */
+body.front {
+  #section-header {
+      min-height: 750px;
+  }
+} 
 img {
   max-width: 100%;
   height: auto;
@@ -401,7 +406,7 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: $global-margin 0 $global-margin 0;
+  margin: $global-margin*1.5 0 $global-margin*1.5 0;
 
   .logo-img {
     float: none;

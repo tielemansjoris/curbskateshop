@@ -3,6 +3,8 @@
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
@@ -99,6 +101,210 @@
         #section-header #zone-branding-wrapper .header-contact a:hover {
           color: #b87e01; }
       #section-header #zone-branding-wrapper .header-contact h2 {
-        margin-bottom: 10px; }
+        margin-bottom: 15px; }
+      #section-header #zone-branding-wrapper .header-contact span {
+        margin-bottom: 10px;
+        display: block;
+        position: relative;
+        padding-left: 25px; }
+        #section-header #zone-branding-wrapper .header-contact span.contact-adres:before {
+          content: "";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          /*--adjust as necessary--*/
+          color: #b87e01;
+          font-size: 14px;
+          padding-right: 0;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        #section-header #zone-branding-wrapper .header-contact span.contact-phone:before {
+          content: "";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          /*--adjust as necessary--*/
+          color: #b87e01;
+          font-size: 14px;
+          padding-right: 0;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        #section-header #zone-branding-wrapper .header-contact span.contact-email:before {
+          content: "";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          /*--adjust as necessary--*/
+          color: #b87e01;
+          font-size: 14px;
+          padding-right: 0;
+          position: absolute;
+          top: 0;
+          left: 0; }
+  #section-header #zone-menu-wrapper {
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 5px solid rgba(0, 0, 0, 0.1); }
+    #section-header #zone-menu-wrapper #region-menu {
+      margin-left: 0;
+      margin-right: 0; }
+      #section-header #zone-menu-wrapper #region-menu #block-system-main-menu {
+        padding: 0;
+        float: left; }
+        #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu {
+          margin-left: 0; }
+          #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li {
+            width: auto;
+            margin-bottom: 0; }
+            #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li a {
+              border: none;
+              background: #373737;
+              color: white;
+              font-size: 16px;
+              text-transform: uppercase;
+              border-right: 1px solid rgba(255, 255, 255, 0.3);
+              font-weight: 400;
+              padding: 10px 16px; }
+              #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li a:hover, #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li a.active {
+                background: #b87e01; }
+              #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li a.home-menu {
+                text-indent: -9999999px;
+                width: 18px;
+                position: relative; }
+                #section-header #zone-menu-wrapper #region-menu #block-system-main-menu ul.menu li a.home-menu:before {
+                  content: "";
+                  font-family: FontAwesome;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-decoration: inherit;
+                  /*--adjust as necessary--*/
+                  color: white;
+                  font-size: 18px;
+                  padding-right: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  text-indent: initial;
+                  padding: 10px 16px; }
+      #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection {
+        padding: 0;
+        float: right; }
+        #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu {
+          margin-left: 0; }
+          #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li {
+            width: auto;
+            margin-bottom: 0;
+            margin-top: 0; }
+            #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a {
+              border: none;
+              background: #373737;
+              color: white;
+              font-size: 16px;
+              text-transform: uppercase;
+              border-right: 1px solid rgba(255, 255, 255, 0.3);
+              font-weight: 400;
+              padding: 14px 16px;
+              width: 16px;
+              height: auto;
+              text-indent: -9999999px;
+              position: relative; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a:hover, #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a.active {
+                background: #b87e01; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a:before {
+                text-indent: initial;
+                padding: 10px 16px; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a.facebook:before {
+                content: "";
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                /*--adjust as necessary--*/
+                color: white;
+                font-size: 18px;
+                padding-right: 0;
+                position: absolute;
+                top: 5px;
+                left: 4px; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a.twitter:before {
+                content: "";
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                /*--adjust as necessary--*/
+                color: white;
+                font-size: 18px;
+                padding-right: 0;
+                position: absolute;
+                top: 5px;
+                left: 0; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a.youtube:before {
+                content: "";
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                /*--adjust as necessary--*/
+                color: white;
+                font-size: 18px;
+                padding-right: 0;
+                position: absolute;
+                top: 5px;
+                left: 0; }
+              #section-header #zone-menu-wrapper #region-menu #block-menu-menu-social-connection ul.menu li a.googleplus:before {
+                content: "";
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                /*--adjust as necessary--*/
+                color: white;
+                font-size: 18px;
+                padding-right: 0;
+                position: absolute;
+                top: 5px;
+                left: 0; }
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#section-content #zone-preface-wrapper {
+  background: #373737; }
+  #section-content #zone-preface-wrapper #zone-preface {
+    background: transparent;
+    padding-top: 0; }
+    #section-content #zone-preface-wrapper #zone-preface #region-breadcrumb {
+      margin: 0; }
+      #section-content #zone-preface-wrapper #zone-preface #region-breadcrumb .brands-home .views-row {
+        float: left; }
+        #section-content #zone-preface-wrapper #zone-preface #region-breadcrumb .brands-home .views-row .node-brand {
+          border: none;
+          display: inline-block;
+          margin: 0;
+          padding: 10px 25px 10px 0; }
+          #section-content #zone-preface-wrapper #zone-preface #region-breadcrumb .brands-home .views-row .node-brand img {
+            filter: url("data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+            /* Firefox 10+, Firefox on Android */
+            filter: gray;
+            /* IE6-9 */
+            -webkit-filter: grayscale(100%);
+            /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+            opacity: 0.5; }
+            #section-content #zone-preface-wrapper #zone-preface #region-breadcrumb .brands-home .views-row .node-brand img:hover {
+              filter: url("data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+              /* Firefox 10+, Firefox on Android */
+              filter: gray;
+              /* IE6-9 */
+              -webkit-filter: grayscale(0%);
+              /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+              opacity: 1; }
 
 /*# sourceMappingURL=custom.css.map */

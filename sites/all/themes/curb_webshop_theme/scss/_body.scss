@@ -1,0 +1,33 @@
+@import 'variables';
+
+#section-content {
+	#zone-preface-wrapper {
+		background: $gray-dark;
+		#zone-preface {
+			background: transparent;
+			padding-top: 0;
+			#region-breadcrumb {
+				margin: 0;
+				.brands-home {
+					.views-row {
+						float: left;
+						.node-brand {
+							border: none;
+							display: inline-block;
+							margin: 0;
+							padding: 10px 25px 10px 0;
+							img {
+								@include grayscale(100%);
+								opacity: 0.5;
+								&:hover {
+									@include grayscale(0%);
+									opacity: 1;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

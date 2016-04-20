@@ -1,0 +1,49 @@
+@import 'variables';
+
+	#section-footer	{
+		background: $gray-dark;
+		#block-block-2 {
+			p {
+				text-align: center;
+			}
+		}
+		.block-multiblock-1 {
+			float: right;
+			background-color: $black-transparent-high;
+			color: $white;
+			padding: 20px 40px;
+			font-size: $font-size-small;
+			text-transform: uppercase;
+			margin-right: -20px;
+			a {
+				color: $white;
+				&:hover {
+					color: $orange;
+				}
+			}
+			h2 {
+				margin-bottom: 15px;
+			}
+			span {
+				margin-bottom: 10px;
+				display: block;
+				position: relative;
+				padding-left: 25px;
+				&.contact-adres {
+					&:before {
+						@include font-awesome-icon("\f124", $orange, 14px, 0, 0, 0);
+					}
+				}
+				&.contact-phone {
+					&:before {
+						@include font-awesome-icon("\f095", $orange, 14px, 0, 0, 0);
+					}
+				}
+				&.contact-email {
+					&:before {
+						@include font-awesome-icon("\f0e0", $orange, 14px, 0, 0, 0);
+					}
+				}
+			}
+		}
+	}

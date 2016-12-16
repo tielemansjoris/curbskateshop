@@ -1,7 +1,84 @@
 @import 'variables';
-
+	
+	#zone-footer2-wrapper {
+		padding: 10px 0px;;
+		background-color: $gray-dark-extra;
+		min-height: 0px;
+		text-transform: uppercase;
+		div.footer-social {
+			display: inline-block;
+			margin-right: 15px;
+		}
+		ul.menu {
+			display: inline-block;
+			width: auto;
+			li {
+				display: inline-block;
+				a {
+					color: $orange;
+				}
+			}
+		}
+	}
 	#section-footer	{
 		background: $gray-dark;
+		color: $white;
+		b {
+			font-weight: bold;
+		}
+		p {
+			font-size: 12px;
+		}
+		a.cta {
+			display: inline-block;
+			color: $white;
+			padding: 10px 0px;
+			background: $orange;
+			text-align: center;
+			text-transform: uppercase;
+			font: 14px;
+			width: 100%;
+			&:hover {
+				background: $black-transparent-high;
+			}
+		}
+		h2.block-title {
+			text-align: center;
+			text-transform: uppercase;
+			color: $orange;
+			font-weight: 400;
+			margin-bottom: 25px;
+		}
+		.block-footer-sitemap-footer-sitemap {
+			.main-menu {
+				li {
+					width: 100%;
+					display: inline-block;
+					a {
+						color: $white;
+						&:hover {
+							color: $orange;
+						}
+						&:before {
+							content: '>';
+							color: $orange;
+							margin-right: 10px;
+							font-weight: 900;
+						}
+					}
+					ul {
+						li {
+							a {
+								margin-left: 35px;
+								&:before {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		#block-block-2 {
 			p {
 				text-align: center;
@@ -14,7 +91,6 @@
 			padding: 20px 40px;
 			font-size: $font-size-small;
 			text-transform: uppercase;
-			margin-right: -20px;
 			a {
 				color: $white;
 				&:hover {

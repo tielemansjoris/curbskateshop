@@ -57,3 +57,19 @@
 		}
 	}
 }
+.view-homepage {
+	.product-category {
+		position: relative;
+		margin-bottom: 15px;
+		span.product-title {
+			position: absolute;
+			bottom: 20px;
+			right: 0px;
+			background: $black-transparent-light;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: $white;
+			padding: 0px 40px 0px 15px;;
+		}
+	}
+}

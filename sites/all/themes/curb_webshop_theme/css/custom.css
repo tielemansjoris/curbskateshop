@@ -26,6 +26,8 @@
   background-size: 100%; }
   #section-header p {
     margin-bottom: 0; }
+  #section-header em {
+    margin-left: 5px; }
   #section-header #zone-user-wrapper {
     background: rgba(0, 0, 0, 0.7);
     border-bottom: 5px solid rgba(0, 0, 0, 0.1); }

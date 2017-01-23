@@ -1,0 +1,11 @@
+#zone-menu {
+	.megamenu-skin-friendly, .megamenu-skin-friendly:hover {
+		background-color: transparent;
+		.megamenu-parent-title a {
+			background-color: transparent;
+		}
+	}
+	.home-menu {
+		@include image-replace("/curbskateshop/sites/default/files/styles/product_thumbnail/public/product-thumb.png");
+	}
+}

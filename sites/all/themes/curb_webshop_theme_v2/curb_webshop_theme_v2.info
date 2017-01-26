@@ -402,7 +402,10 @@ settings[alpha_region_footer2_second_suffix] = ''
 settings[alpha_region_footer2_second_weight] = '2'
 settings[alpha_region_footer2_second_css] = ''
 
+stylesheets[all][] = fonts/fonts.css
 stylesheets[all][] = css/custom.css
+
+stylesheets[all][] = css_overrides/megamenu-skins.css
 
 ; Information added by drupal.org packaging script on 2013-07-25
 version = "7.x-3.4"

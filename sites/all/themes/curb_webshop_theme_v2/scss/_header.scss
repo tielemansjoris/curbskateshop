@@ -1,0 +1,38 @@
+#section-header {
+	background-color: $white;
+	background-image: url(../images/header/bg-pattern.jpg);
+	border-bottom: 6px solid #e5e5e5;
+}
+
+#zone-menu {
+	.megamenu-skin-friendly .megamenu-parent-title a {
+		color: #000;
+	}
+	.megamenu-skin-friendly .megamenu-parent-title a:hover {
+		color: #46d476;
+	}
+}
+
+#block-megamenu-main-menu {
+	padding: 15px 0;
+	font-size: 24px;
+	.megamenu-parent {
+		margin-right: 40px;
+	}
+	.megamenu-parent.last {
+		margin-right: 0;
+	}
+	.home-menu {
+		display: inline-block;
+		background: url('../logo.png') no-repeat center;
+		background-size: contain;
+		width: 100px;
+		height: 62px;
+		text-indent: -999px;
+	}
+}
+
+#block-megamenu-menu-user-menu,
+#block-megamenu-menu-social-connection {
+	display: none; // hide temporarily
+}

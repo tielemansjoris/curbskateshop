@@ -7,3 +7,7 @@ sites/*/private
 .DS_Store
 .sass-cache
 *.css.map
+sites/all/themes/curb_webshop_theme_v2/.sass-cache/*
+profiles/commerce_kickstart/settings.php
+settings.php
+profiles/commerce_kickstart/default.settings.php

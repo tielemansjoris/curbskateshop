@@ -36,7 +36,11 @@
   display: none; }
 
 body {
-  background-color: black; }
+  background-color: black;
+  color: white; }
+
+h2.block-title {
+  color: white; }
 
 html {
   font-size: 28px; }

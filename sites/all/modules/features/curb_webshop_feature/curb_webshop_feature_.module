@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the curb webshop feature feature.
+ */
+
+include_once 'curb_webshop_feature_.features.inc';

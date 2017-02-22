@@ -17,7 +17,11 @@
 	padding: 15px 0;
 	font-size: 24px;
 	.megamenu-parent {
-		margin-right: 40px;
+		margin-right: 35px;
+		vertical-align: middle;
+	}
+	.megamenu-parent.first {
+		vertical-align: top;
 	}
 	.megamenu-parent.last {
 		margin-right: 0;

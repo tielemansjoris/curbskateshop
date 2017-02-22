@@ -48,6 +48,42 @@ function curb_webshop_feature__image_default_styles() {
     ),
   );
 
+  // Exported image style: front_img_main.
+  $styles['front_img_main'] = array(
+    'label' => 'front_img_main',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 940,
+          'height' => 400,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: front_img_sub.
+  $styles['front_img_sub'] = array(
+    'label' => 'front_img_sub',
+    'effects' => array(
+      3 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 460,
+          'height' => 300,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: front_large.
+  $styles['front_large'] = array(
+    'label' => 'front_large',
+    'effects' => array(),
+  );
+
   return $styles;
 }
 

@@ -20,7 +20,10 @@
   padding: 15px 0;
   font-size: 24px; }
   #block-megamenu-main-menu .megamenu-parent {
-    margin-right: 40px; }
+    margin-right: 35px;
+    vertical-align: middle; }
+  #block-megamenu-main-menu .megamenu-parent.first {
+    vertical-align: top; }
   #block-megamenu-main-menu .megamenu-parent.last {
     margin-right: 0; }
   #block-megamenu-main-menu .home-menu {
@@ -41,6 +44,90 @@ body {
 
 h2.block-title {
   color: white; }
+
+div#zone-content {
+  padding: 0;
+  margin-bottom: 0; }
+
+.zone-wrapper .region-content,
+.zone-wrapper .region-postscript-first,
+.zone-wrapper .region-postscript-second {
+  width: 100%;
+  margin: 0;
+  position: relative; }
+  .zone-wrapper .region-content img,
+  .zone-wrapper .region-postscript-first img,
+  .zone-wrapper .region-postscript-second img {
+    filter: gray;
+    /* IE6-9 */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */ }
+    .zone-wrapper .region-content img:hover,
+    .zone-wrapper .region-postscript-first img:hover,
+    .zone-wrapper .region-postscript-second img:hover {
+      filter: none;
+      -webkit-filter: grayscale(0); }
+  .zone-wrapper .region-content h2.block-title,
+  .zone-wrapper .region-content .field-name-field-link-shop-now,
+  .zone-wrapper .region-postscript-first h2.block-title,
+  .zone-wrapper .region-postscript-first .field-name-field-link-shop-now,
+  .zone-wrapper .region-postscript-second h2.block-title,
+  .zone-wrapper .region-postscript-second .field-name-field-link-shop-now {
+    z-index: 99;
+    position: absolute; }
+    .zone-wrapper .region-content h2.block-title a,
+    .zone-wrapper .region-content .field-name-field-link-shop-now a,
+    .zone-wrapper .region-postscript-first h2.block-title a,
+    .zone-wrapper .region-postscript-first .field-name-field-link-shop-now a,
+    .zone-wrapper .region-postscript-second h2.block-title a,
+    .zone-wrapper .region-postscript-second .field-name-field-link-shop-now a {
+      color: black;
+      text-transform: uppercase;
+      padding: 5px 7px;
+      background-color: white;
+      font-weight: bold;
+      font-size: 12px; }
+      .zone-wrapper .region-content h2.block-title a:hover,
+      .zone-wrapper .region-content .field-name-field-link-shop-now a:hover,
+      .zone-wrapper .region-postscript-first h2.block-title a:hover,
+      .zone-wrapper .region-postscript-first .field-name-field-link-shop-now a:hover,
+      .zone-wrapper .region-postscript-second h2.block-title a:hover,
+      .zone-wrapper .region-postscript-second .field-name-field-link-shop-now a:hover {
+        color: white;
+        background-color: #46d476; }
+  .zone-wrapper .region-content h2.block-title,
+  .zone-wrapper .region-postscript-first h2.block-title,
+  .zone-wrapper .region-postscript-second h2.block-title {
+    font-size: 24px; }
+  .zone-wrapper .region-content article,
+  .zone-wrapper .region-postscript-first article,
+  .zone-wrapper .region-postscript-second article {
+    display: none; }
+.zone-wrapper .region-content h2.block-title {
+  top: 40%; }
+.zone-wrapper .region-content .field-name-field-link-shop-now {
+  top: 50%; }
+.zone-wrapper .region-content h2.block-title,
+.zone-wrapper .region-content .field-name-field-link-shop-now {
+  left: 15%; }
+.zone-wrapper .region-postscript-first h2.block-title,
+.zone-wrapper .region-postscript-second h2.block-title {
+  top: 25%; }
+.zone-wrapper .region-postscript-first .field-name-field-link-shop-now,
+.zone-wrapper .region-postscript-second .field-name-field-link-shop-now {
+  top: 45%; }
+.zone-wrapper .region-postscript-first h2.block-title,
+.zone-wrapper .region-postscript-first .field-name-field-link-shop-now,
+.zone-wrapper .region-postscript-second h2.block-title,
+.zone-wrapper .region-postscript-second .field-name-field-link-shop-now {
+  left: 50px; }
+.zone-wrapper .region-postscript-first {
+  margin-right: 20px; }
+  .zone-wrapper .region-postscript-first h2.block-title,
+  .zone-wrapper .region-postscript-first .field-name-field-link-shop-now {
+    right: 50px; }
 
 html {
   font-size: 28px; }

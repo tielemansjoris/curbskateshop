@@ -22,7 +22,7 @@ function curb_webshop_feature__field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'front_img_main',
           'linked_field' => array(
             'advanced' => array(
               'class' => '',

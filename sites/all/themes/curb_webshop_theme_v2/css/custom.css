@@ -58,7 +58,8 @@ body {
   color: white; }
 
 h2.block-title {
-  color: white; }
+  color: white;
+  font-size: 24px; }
 
 div#zone-content {
   padding: 0;
@@ -170,5 +171,48 @@ body.front .region-postscript-third {
       letter-spacing: 0;
       color: #7d7d7d;
       font-size: 12px; }
+
+.block-about-us,
+.block-team-block {
+  margin-top: 30px; }
+  .block-about-us img,
+  .block-team-block img {
+    filter: gray;
+    /* IE6-9 */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */ }
+  .block-about-us h2.block-title,
+  .block-team-block h2.block-title {
+    font-size: 24px;
+    margin-bottom: 20px; }
+
+.block-about-us .field-type-image,
+.block-about-us .field-type-text-long {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top; }
+
+.block-team-block {
+  text-align: center; }
+  .block-team-block h2.block-title {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px; }
+  .block-team-block .view-content {
+    margin: 0 -20px; }
+    .block-team-block .view-content .views-row {
+      display: inline-block;
+      padding: 0 20px; }
+      .block-team-block .view-content .views-row .field-type-image {
+        background-color: #46d476; }
+        .block-team-block .view-content .views-row .field-type-image img:hover {
+          opacity: 0.3; }
+      .block-team-block .view-content .views-row .field-name-title-field {
+        margin-top: 15px;
+        font-family: "bebas", "Open Sans", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0;
+        font-size: 22px; }
 
 /*# sourceMappingURL=custom.css.map */

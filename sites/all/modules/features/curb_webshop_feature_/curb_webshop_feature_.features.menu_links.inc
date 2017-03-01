@@ -73,7 +73,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -49,
+    'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
@@ -190,7 +190,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -50,
+    'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
@@ -211,7 +211,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -48,
+    'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
@@ -232,9 +232,27 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -47,
+    'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
+  );
+  // Exported menu link: navigation_team:node/add/team.
+  $menu_links['navigation_team:node/add/team'] = array(
+    'menu_name' => 'navigation',
+    'link_path' => 'node/add/team',
+    'router_path' => 'node/add/team',
+    'link_title' => 'Team',
+    'options' => array(
+      'identifier' => 'navigation_team:node/add/team',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'navigation_add-content:node/add',
   );
 
   // Translatables
@@ -243,6 +261,7 @@ function curb_webshop_feature__menu_default_menu_links() {
   t('Home');
   t('Shop');
   t('Skateboards');
+  t('Team');
   t('about');
   t('blog');
   t('contact');

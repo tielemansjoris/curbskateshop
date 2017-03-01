@@ -1,0 +1,51 @@
+.block-about-us,
+.block-team-block {
+	margin-top: 30px;
+	img {
+	  	filter: gray; /* IE6-9 */
+	  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+	  	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	}
+	h2.block-title {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+}
+.block-about-us {
+	.field-type-image,
+	.field-type-text-long {
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+.block-team-block {
+	text-align: center;
+	h2.block-title {
+		border-bottom: 2px solid $white;
+		padding-bottom: 15px;
+	}
+	.view-content {
+		margin: 0 -20px;
+		.views-row {
+			display: inline-block;
+			padding: 0 20px;
+			.field-type-image {
+				background-color: $green-hover;
+				img {
+					&:hover {
+						opacity: 0.3;
+					}
+				}
+			}
+			.field-name-title-field {
+				margin-top: 15px;
+			    font-family: "bebas", "Open Sans", sans-serif;
+			    font-weight: 700;
+			    letter-spacing: 0;
+			    font-size: 22px;
+			}
+		}
+	}
+}

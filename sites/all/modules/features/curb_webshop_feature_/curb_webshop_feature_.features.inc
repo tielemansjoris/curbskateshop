@@ -32,6 +32,27 @@ function curb_webshop_feature__views_api($module = NULL, $api = NULL) {
 function curb_webshop_feature__image_default_styles() {
   $styles = array();
 
+  // Exported image style: about_i_ag.
+  $styles['about_i_ag'] = array(
+    'label' => 'about iùag',
+    'effects' => array(),
+  );
+
+  // Exported image style: about_image.
+  $styles['about_image'] = array(
+    'label' => 'about image',
+    'effects' => array(
+      6 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 400,
+          'height' => 280,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: brand_thumb.
   $styles['brand_thumb'] = array(
     'label' => 'Brand Thumb',
@@ -112,6 +133,14 @@ function curb_webshop_feature__node_info() {
       'name' => t('Product display'),
       'base' => 'node_content',
       'description' => t('Use product displays for adding product pages to your store'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'team' => array(
+      'name' => t('Team'),
+      'base' => 'node_content',
+      'description' => '',
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

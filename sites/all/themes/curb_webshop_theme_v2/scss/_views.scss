@@ -1,0 +1,38 @@
+// Home View
+
+body.front .region-postscript-third {
+	margin: 75px 0 0 0;
+	.block-new-arrivals-front--block {
+		h2.block-title {
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		.view-content {
+			text-align: center;
+		}
+		.views-row {
+			display: inline-block;
+			width: 29%;
+			margin-bottom: 20px;
+			span.field-content a {
+			    font-family: "bebas", "Open Sans", sans-serif;
+			    font-weight: 700;
+			    letter-spacing: 0;
+			    color: $white;
+			    &:hover {
+			    	color: $green-hover;
+			    }
+			}
+			.views-field-title {
+				margin-top: 10px;
+			}
+			.field-name-commerce-price {
+			    font-family: "bebas", "Open Sans", sans-serif;
+			    font-weight: 700;
+			    letter-spacing: 0;
+			    color: $gray-medium;
+			    font-size: 12px;
+			}
+		}
+	}
+}

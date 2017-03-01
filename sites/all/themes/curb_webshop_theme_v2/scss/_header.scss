@@ -14,11 +14,33 @@
 }
 
 #block-megamenu-main-menu {
+	float: left;
 	padding: 15px 0;
 	font-size: 24px;
 	.megamenu-parent {
 		margin-right: 35px;
 		vertical-align: middle;
+		.megamenu-bin {
+			li {
+				list-style: none;
+				display: inline-block;
+			}
+		}
+		.megamenu-slot {
+			margin: 0;
+			background-color: $gray-light;
+			width: auto;
+			padding: 5px 10px;
+			a {
+				color: $black;
+				font-size: 14px;
+				text-decoration: none;
+			    &:hover {
+			    	color: $green-hover;
+			    }
+			}
+		}
+
 	}
 	.megamenu-parent.first {
 		vertical-align: top;

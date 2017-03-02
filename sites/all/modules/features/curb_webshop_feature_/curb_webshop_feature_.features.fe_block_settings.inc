@@ -168,6 +168,84 @@ function curb_webshop_feature__default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['block-contact_maps'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'contact_maps',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'contact',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => 0,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Contact',
+    'visibility' => 1,
+  );
+
+  $export['block-footer_info'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'footer_info',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'footer_first',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => -33,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Webshop',
+    'visibility' => 0,
+  );
+
   $export['comment-recent'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -818,10 +896,10 @@ shop/*',
         'weight' => 0,
       ),
       'curb_webshop_theme_v2' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_second',
+        'status' => 1,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => -13,
+        'weight' => -33,
       ),
       'omega_kickstart' => array(
         'region' => '',
@@ -1793,8 +1871,8 @@ shop/*',
         'weight' => 0,
       ),
       'curb_webshop_theme_v2' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'menu',
+        'status' => 1,
         'theme' => 'curb_webshop_theme_v2',
         'weight' => 17,
       ),
@@ -1805,7 +1883,7 @@ shop/*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 

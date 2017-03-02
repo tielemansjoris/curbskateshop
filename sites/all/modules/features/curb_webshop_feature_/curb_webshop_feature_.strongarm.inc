@@ -310,6 +310,22 @@ function curb_webshop_feature__strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'footer_sitemap_hidden_links';
+  $strongarm->value = array();
+  $export['footer_sitemap_hidden_links'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'footer_sitemap_menu';
+  $strongarm->value = array(
+    'main-menu' => 'main-menu',
+  );
+  $export['footer_sitemap_menu'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'language_content_type_brand';
   $strongarm->value = '0';
   $export['language_content_type_brand'] = $strongarm;

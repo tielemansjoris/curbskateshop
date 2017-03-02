@@ -1,0 +1,35 @@
+.page-node-49 {
+	.zone-content {
+		margin-top: 50px;
+		font-family: "bebas", "Open Sans", sans-serif;
+	    font-weight: 700;
+		h2.block-title {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.contact-adres {
+	margin-top: 55px;
+	padding: 25px;
+	background-color: $green-hover;
+	color: $black;
+    max-width: 300px;
+    a:link,
+    a:visited {
+    	color: $white;
+    	&:hover {
+    		color: $gray-light;
+    	}
+    }
+}
+.openingsuren {
+	margin-top: 20px;
+	color: $gray-light;
+	span {
+		margin: 5px 0;
+		display: inline-block;
+		min-width: 100px;
+	}
+}

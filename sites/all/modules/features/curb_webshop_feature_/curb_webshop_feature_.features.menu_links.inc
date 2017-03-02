@@ -236,6 +236,86 @@ function curb_webshop_feature__menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
+  // Exported menu link: menu-footer-navigation_company-info:<nolink>.
+  $menu_links['menu-footer-navigation_company-info:<nolink>'] = array(
+    'menu_name' => 'menu-footer-navigation',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Company info',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-footer-navigation_company-info:<nolink>',
+      'toolbar_expanded' => 0,
+      'toolbar_break' => 0,
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -50,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-navigation_security--privacy:<nolink>.
+  $menu_links['menu-footer-navigation_security--privacy:<nolink>'] = array(
+    'menu_name' => 'menu-footer-navigation',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Security & privacy',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-footer-navigation_security--privacy:<nolink>',
+      'toolbar_expanded' => 0,
+      'toolbar_break' => 0,
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-navigation_service--support:<nolink>.
+  $menu_links['menu-footer-navigation_service--support:<nolink>'] = array(
+    'menu_name' => 'menu-footer-navigation',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Service & support',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-footer-navigation_service--support:<nolink>',
+      'toolbar_expanded' => 0,
+      'toolbar_break' => 0,
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-navigation_shipping--returns:<nolink>.
+  $menu_links['menu-footer-navigation_shipping--returns:<nolink>'] = array(
+    'menu_name' => 'menu-footer-navigation',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Shipping & returns',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-footer-navigation_shipping--returns:<nolink>',
+      'toolbar_expanded' => 0,
+      'toolbar_break' => 0,
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -47,
+    'customized' => 1,
+  );
   // Exported menu link: navigation_team:node/add/team.
   $menu_links['navigation_team:node/add/team'] = array(
     'menu_name' => 'navigation',
@@ -258,7 +338,11 @@ function curb_webshop_feature__menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Clothing');
+  t('Company info');
   t('Home');
+  t('Security & privacy');
+  t('Service & support');
+  t('Shipping & returns');
   t('Shop');
   t('Skateboards');
   t('Team');

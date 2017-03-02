@@ -8,7 +8,8 @@
 	.megamenu-skin-friendly .megamenu-parent-title a {
 		color: #000;
 	}
-	.megamenu-skin-friendly .megamenu-parent-title a:hover {
+	.megamenu-skin-friendly .megamenu-parent-title a:hover,
+	.megamenu-skin-friendly .megamenu-parent-title .active {
 		color: #46d476;
 	}
 }
@@ -35,7 +36,8 @@
 				color: $black;
 				font-size: 14px;
 				text-decoration: none;
-			    &:hover {
+			    &:hover,
+			    .active {
 			    	color: $green-hover;
 			    }
 			}
@@ -61,4 +63,17 @@
 #block-megamenu-menu-user-menu,
 #block-megamenu-menu-social-connection {
 	display: none; // hide temporarily
+}
+
+
+#block-system-user-menu {
+	float: right;
+	ul.menu li a {
+		background: none;
+		border: none;
+	}
+	li {
+		display: inline-block;
+		width: auto;
+	}
 }

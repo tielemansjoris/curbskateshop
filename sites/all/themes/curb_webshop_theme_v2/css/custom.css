@@ -383,4 +383,26 @@ body.front .region-postscript-third {
     display: inline-block;
     min-width: 100px; }
 
+.page-shop ul.all-products {
+  margin-top: 50px; }
+  .page-shop ul.all-products .views-row {
+    margin: 0;
+    width: 30%;
+    display: inline-block;
+    vertical-align: center;
+    padding: 0 10px;
+    text-align: center; }
+    .page-shop ul.all-products .views-row h2 {
+      margin-bottom: 0; }
+    .page-shop ul.all-products .views-row h2 a {
+      color: white;
+      font-size: 14px; }
+      .page-shop ul.all-products .views-row h2 a:hover {
+        color: #46d476; }
+    .page-shop ul.all-products .views-row .commerce-product-field .field-item {
+      font-size: 12px;
+      color: #7d7d7d; }
+    .page-shop ul.all-products .views-row .commerce-product-field span.price_prefix {
+      display: none; }
+
 /*# sourceMappingURL=custom.css.map */

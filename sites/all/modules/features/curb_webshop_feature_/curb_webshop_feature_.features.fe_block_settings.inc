@@ -12,6 +12,45 @@ function curb_webshop_feature__default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['bean-about-us'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'about-us',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => 'about',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => -32,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['bean-erzt'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -205,6 +244,45 @@ function curb_webshop_feature__default_fe_block_settings() {
     ),
     'title' => 'Contact',
     'visibility' => 1,
+  );
+
+  $export['block-disclaimer'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'disclaimer',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'footer2_first',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => 0,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
   );
 
   $export['block-footer_info'] = array(
@@ -676,128 +754,11 @@ cart',
     'visibility' => 0,
   );
 
-  $export['facetapi-4MnuqsU9U0F81nBMXnQt67Y06gEKf0TG'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => '4MnuqsU9U0F81nBMXnQt67Y06gEKf0TG',
-    'module' => 'facetapi',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'commerce_kickstart_admin' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'commerce_kickstart_admin',
-        'weight' => 0,
-      ),
-      'curb_webshop_theme_v2' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'curb_webshop_theme_v2',
-        'weight' => -14,
-      ),
-      'omega_kickstart' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'omega_kickstart',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['facetapi-H24ObDRB0Wq0KpRW1qalIgb7TvlKP7aj'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'H24ObDRB0Wq0KpRW1qalIgb7TvlKP7aj',
-    'module' => 'facetapi',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'commerce_kickstart_admin' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'commerce_kickstart_admin',
-        'weight' => 0,
-      ),
-      'curb_webshop_theme_v2' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'curb_webshop_theme_v2',
-        'weight' => -16,
-      ),
-      'omega_kickstart' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'omega_kickstart',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['facetapi-TFVaQKSORCPdrULxfXDnLQZ40xH0Nper'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'TFVaQKSORCPdrULxfXDnLQZ40xH0Nper',
-    'module' => 'facetapi',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'commerce_kickstart_admin' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'commerce_kickstart_admin',
-        'weight' => 0,
-      ),
-      'curb_webshop_theme_v2' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'curb_webshop_theme_v2',
-        'weight' => -15,
-      ),
-      'omega_kickstart' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'omega_kickstart',
-        'weight' => -1,
-      ),
-    ),
-    'title' => 'Price',
-    'visibility' => 0,
-  );
-
-  $export['facetapi-k2i1LZFEaYtSE0qAIOjO2ht0a7HlC8Vr'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'k2i1LZFEaYtSE0qAIOjO2ht0a7HlC8Vr',
     'module' => 'facetapi',
     'node_types' => array(),
     'pages' => 'shop
@@ -820,7 +781,7 @@ shop/*',
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => -17,
+        'weight' => -16,
       ),
       'omega_kickstart' => array(
         'region' => 'sidebar_first',
@@ -830,6 +791,46 @@ shop/*',
       ),
     ),
     'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['facetapi-TFVaQKSORCPdrULxfXDnLQZ40xH0Nper'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'TFVaQKSORCPdrULxfXDnLQZ40xH0Nper',
+    'module' => 'facetapi',
+    'node_types' => array(),
+    'pages' => 'shop
+shop/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => -15,
+      ),
+      'omega_kickstart' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'omega_kickstart',
+        'weight' => -1,
+      ),
+    ),
+    'title' => 'Price',
     'visibility' => 1,
   );
 

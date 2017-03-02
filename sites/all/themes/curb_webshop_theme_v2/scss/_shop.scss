@@ -1,0 +1,32 @@
+.page-shop {
+	ul.all-products {
+		margin-top: 50px;
+		.views-row {
+		    margin: 0;
+		    width: 30%;
+		    display: inline-block;
+		    vertical-align: center;
+		    padding: 0 10px;
+		    text-align: center;
+		    h2 {
+		    	margin-bottom: 0;
+		    }
+		    h2 a {
+		    	color: $white;
+		    	font-size: 14px;
+		    	&:hover {
+		    		color: $green-hover;
+		    	}
+		    }
+		    .commerce-product-field {
+		    	.field-item {
+			    	font-size: 12px;
+			    	color: $gray-medium;
+		    	}
+		    	span.price_prefix {
+		    		display: none;
+		    	}
+		    }
+		}
+	}
+}

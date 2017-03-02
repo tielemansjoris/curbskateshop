@@ -17,5 +17,13 @@ function curb_webshop_feature__taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'product_category' => array(
+      'name' => 'Product category',
+      'machine_name' => 'product_category',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
   );
 }

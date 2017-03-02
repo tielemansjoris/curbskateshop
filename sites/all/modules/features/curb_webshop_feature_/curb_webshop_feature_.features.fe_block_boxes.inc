@@ -19,6 +19,14 @@ function curb_webshop_feature__default_fe_block_boxes() {
   $export['contact_maps'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'disclaimer';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'disclaimer';
+  $fe_block_boxes->body = '© Curb Skateshop 2017';
+
+  $export['disclaimer'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'footer info';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'footer_info';

@@ -316,24 +316,6 @@ function curb_webshop_feature__menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: navigation_team:node/add/team.
-  $menu_links['navigation_team:node/add/team'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'node/add/team',
-    'router_path' => 'node/add/team',
-    'link_title' => 'Team',
-    'options' => array(
-      'identifier' => 'navigation_team:node/add/team',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'navigation_add-content:node/add',
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -345,7 +327,6 @@ function curb_webshop_feature__menu_default_menu_links() {
   t('Shipping & returns');
   t('Shop');
   t('Skateboards');
-  t('Team');
   t('about');
   t('blog');
   t('contact');

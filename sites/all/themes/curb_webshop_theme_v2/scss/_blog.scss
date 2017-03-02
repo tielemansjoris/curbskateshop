@@ -1,3 +1,34 @@
-html {
-	font-size: 28px;
+.page-blog {
+	.region-content .view-blog .view-content .views-row {
+		border: none;
+		border-bottom: 1px solid $white;
+		h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		.node-blog-post {
+			padding: 0 0 20px 0;
+		}
+		.field-name-post-date {
+			font-family: "bebas", "Open Sans", sans-serif;
+	    	font-weight: 700;
+	    	font-size: 18px;
+	    	margin-top: 65px;
+	    	margin-bottom: 10px;
+		}
+		.field-type-text-with-summary {
+			color: $gray-light;
+		}
+		.field-name-author {
+			color: $green-hover;
+			font-family: "bebas", "Open Sans", sans-serif;
+	    	font-weight: 700;
+		}
+	}
+	.region-content .view-blog .view-content .views-row-last {
+		border-bottom: none;
+	}
+	.region-content .view-blog .view-content .views-row-first {
+		margin-top: 50px;
+	}
 }

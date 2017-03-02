@@ -259,8 +259,30 @@ a.cta {
     border-top: 2px solid #373737;
     color: #7d7d7d; }
 
-html {
-  font-size: 28px; }
+.page-blog .region-content .view-blog .view-content .views-row {
+  border: none;
+  border-bottom: 1px solid white; }
+  .page-blog .region-content .view-blog .view-content .views-row h2 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+  .page-blog .region-content .view-blog .view-content .views-row .node-blog-post {
+    padding: 0 0 20px 0; }
+  .page-blog .region-content .view-blog .view-content .views-row .field-name-post-date {
+    font-family: "bebas", "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 65px;
+    margin-bottom: 10px; }
+  .page-blog .region-content .view-blog .view-content .views-row .field-type-text-with-summary {
+    color: #e5e5e5; }
+  .page-blog .region-content .view-blog .view-content .views-row .field-name-author {
+    color: #46d476;
+    font-family: "bebas", "Open Sans", sans-serif;
+    font-weight: 700; }
+.page-blog .region-content .view-blog .view-content .views-row-last {
+  border-bottom: none; }
+.page-blog .region-content .view-blog .view-content .views-row-first {
+  margin-top: 50px; }
 
 body.front .region-postscript-third {
   margin: 75px 0 0 0; }

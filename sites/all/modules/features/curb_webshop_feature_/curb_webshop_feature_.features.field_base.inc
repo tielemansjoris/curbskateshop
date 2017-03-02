@@ -72,6 +72,21 @@ function curb_webshop_feature__field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_blog_video'.
+  $field_bases['field_blog_video'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_blog_video',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'video_embed_field',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'video_embed_field',
+  );
+
   // Exported field_base: 'field_brand'.
   $field_bases['field_brand'] = array(
     'active' => 1,

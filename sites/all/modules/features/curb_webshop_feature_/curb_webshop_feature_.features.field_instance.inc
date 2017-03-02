@@ -234,6 +234,51 @@ function curb_webshop_feature__field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'comment-comment_node_blog_post-comment_body'.
+  $field_instances['comment-comment_node_blog_post-comment_body'] = array(
+    'bundle' => 'comment_node_blog_post',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'linked_field' => array(
+            'advanced' => array(
+              'class' => '',
+              'rel' => '',
+              'target' => '',
+              'text' => '',
+              'title' => '',
+            ),
+            'destination' => '',
+            'linked' => 0,
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'comment',
+    'field_name' => 'comment_body',
+    'label' => 'Comment',
+    'required' => TRUE,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 0,
+    ),
+  );
+
   // Exported field_instance: 'comment-comment_node_team-comment_body'.
   $field_instances['comment-comment_node_team-comment_body'] = array(
     'bundle' => 'comment_node_team',
@@ -276,6 +321,109 @@ function curb_webshop_feature__field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'node-blog_post-field_blog_video'.
+  $field_instances['node-blog_post-field_blog_video'] = array(
+    'bundle' => 'blog_post',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'video_embed_field',
+        'settings' => array(
+          'description' => 1,
+          'description_position' => 'bottom',
+          'linked_field' => array(
+            'advanced' => array(
+              'class' => '',
+              'rel' => '',
+              'target' => '',
+              'text' => '',
+              'title' => '',
+            ),
+            'destination' => '',
+            'linked' => 0,
+          ),
+          'video_style' => 'normal',
+        ),
+        'type' => 'video_embed_field',
+        'weight' => 0,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'video_embed_field',
+        'settings' => array(
+          'description' => 1,
+          'description_position' => 'bottom',
+          'linked_field' => array(
+            'advanced' => array(
+              'class' => '',
+              'rel' => '',
+              'target' => '',
+              'text' => '',
+              'title' => '',
+            ),
+            'destination' => '',
+            'linked' => 0,
+          ),
+          'video_style' => 'normal',
+        ),
+        'type' => 'video_embed_field',
+        'weight' => 1,
+      ),
+      'product_list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'module' => 'video_embed_field',
+        'settings' => array(
+          'description' => 1,
+          'description_position' => 'bottom',
+          'linked_field' => array(
+            'advanced' => array(
+              'class' => '',
+              'rel' => '',
+              'target' => '',
+              'text' => '',
+              'title' => '',
+            ),
+            'destination' => '',
+            'linked' => 0,
+          ),
+          'video_style' => 'normal',
+        ),
+        'type' => 'video_embed_field',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'node',
+    'fences_wrapper' => 'div_div_div',
+    'field_name' => 'field_blog_video',
+    'label' => 'blog video',
+    'required' => 0,
+    'settings' => array(
+      'allowed_providers' => array(
+        'vimeo' => 'vimeo',
+        'youtube' => 'youtube',
+      ),
+      'description_field' => 0,
+      'description_length' => 128,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'video_embed_field',
+      'settings' => array(),
+      'type' => 'video_embed_field_video',
+      'weight' => 6,
     ),
   );
 
@@ -919,6 +1067,7 @@ function curb_webshop_feature__field_default_field_instances() {
   t('Titel');
   t('about image');
   t('about text');
+  t('blog video');
   t('image_home_block_main');
   t('link_shop_now');
   t('team image');

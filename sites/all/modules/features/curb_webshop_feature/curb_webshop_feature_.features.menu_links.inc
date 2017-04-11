@@ -73,9 +73,8 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_shop:shop',
+    'weight' => 0,
+    'customized' => 0,
   );
   // Exported menu link: main-menu_contact:node/49.
   $menu_links['main-menu_contact:node/49'] = array(

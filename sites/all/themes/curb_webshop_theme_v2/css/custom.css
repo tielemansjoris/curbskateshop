@@ -314,14 +314,6 @@ body.front .region-postscript-third {
 .block-about-us,
 .block-team-block {
   margin-top: 30px; }
-  .block-about-us img,
-  .block-team-block img {
-    filter: gray;
-    /* IE6-9 */
-    filter: grayscale(1);
-    /* Microsoft Edge and Firefox 35+ */
-    -webkit-filter: grayscale(1);
-    /* Google Chrome, Safari 6+ & Opera 15+ */ }
   .block-about-us h2.block-title,
   .block-team-block h2.block-title {
     font-size: 24px;
@@ -354,13 +346,16 @@ body.front .region-postscript-third {
         letter-spacing: 0;
         font-size: 22px; }
 
-.page-node-49 .zone-content {
+.context-contact .zone-content {
   margin-top: 50px;
   font-family: "bebas", "Open Sans", sans-serif;
   font-weight: 700; }
-  .page-node-49 .zone-content h2.block-title {
+  .context-contact .zone-content h2.block-title {
     font-size: 24px;
     margin-bottom: 20px; }
+.context-contact .region-sidebar-first,
+.context-contact .region-content {
+  width: auto !important; }
 
 .contact-adres {
   margin-top: 55px;

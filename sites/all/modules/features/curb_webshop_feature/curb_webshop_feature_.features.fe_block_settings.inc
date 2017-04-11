@@ -663,7 +663,7 @@ cart',
         'region' => '',
         'status' => 0,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => -20,
+        'weight' => -33,
       ),
       'omega_kickstart' => array(
         'region' => '',
@@ -1459,6 +1459,45 @@ shop/*',
     'visibility' => 0,
   );
 
+  $export['search-form'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'form',
+    'module' => 'search',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'commerce_kickstart_admin' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'commerce_kickstart_admin',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'menu',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => -34,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['search_api_sorts-search-sorts'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1875,7 +1914,7 @@ shop/*',
         'region' => 'menu',
         'status' => 1,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => 17,
+        'weight' => -29,
       ),
       'omega_kickstart' => array(
         'region' => '',

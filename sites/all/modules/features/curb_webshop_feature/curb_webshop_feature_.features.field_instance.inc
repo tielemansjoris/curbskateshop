@@ -756,7 +756,7 @@ function curb_webshop_feature__field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -805,6 +805,69 @@ function curb_webshop_feature__field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-team-field_instagram'.
+  $field_instances['node-team-field_instagram'] = array(
+    'bundle' => 'team',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'product_list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'fences_wrapper' => 'div_div_div',
+    'field_name' => 'field_instagram',
+    'label' => 'Instagram',
+    'required' => 1,
+    'settings' => array(
+      'absolute_url' => 1,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'optional',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 4,
+    ),
+  );
+
   // Exported field_instance: 'node-team-field_team_image'.
   $field_instances['node-team-field_team_image'] = array(
     'bundle' => 'team',
@@ -813,9 +876,9 @@ function curb_webshop_feature__field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'image_link_formatter',
         'settings' => array(
-          'image_link' => '',
+          'image_link' => 'field_instagram',
           'image_style' => 'product_thumbnail',
           'linked_field' => array(
             'advanced' => array(
@@ -829,7 +892,7 @@ function curb_webshop_feature__field_default_field_instances() {
             'linked' => 0,
           ),
         ),
-        'type' => 'image',
+        'type' => 'image_link_formatter',
         'weight' => 0,
       ),
       'product_list' => array(
@@ -1119,6 +1182,7 @@ function curb_webshop_feature__field_default_field_instances() {
   t('Body');
   t('Brand');
   t('Comment');
+  t('Instagram');
   t('Link');
   t('Logo');
   t('Product Category image');

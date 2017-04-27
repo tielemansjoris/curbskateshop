@@ -1,6 +1,12 @@
 body {
 	background-color: $black;
 	color: white;
+	a:link {
+		color: $green-hover;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
 }
 h2.block-title {
 	color: $white;

@@ -26,6 +26,13 @@ function curb_webshop_feature__user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'create events content'.
+  $permissions['create events content'] = array(
+    'name' => 'create events content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any about_us bean'.
   $permissions['delete any about_us bean'] = array(
     'name' => 'delete any about_us bean',
@@ -40,12 +47,26 @@ function curb_webshop_feature__user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete any events content'.
+  $permissions['delete any events content'] = array(
+    'name' => 'delete any events content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own blog_post content'.
   $permissions['delete own blog_post content'] = array(
     'name' => 'delete own blog_post content',
     'roles' => array(
       'anonymous user' => 'anonymous user',
     ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own events content'.
+  $permissions['delete own events content'] = array(
+    'name' => 'delete own events content',
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -70,12 +91,26 @@ function curb_webshop_feature__user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any events content'.
+  $permissions['edit any events content'] = array(
+    'name' => 'edit any events content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit own blog_post content'.
   $permissions['edit own blog_post content'] = array(
     'name' => 'edit own blog_post content',
     'roles' => array(
       'anonymous user' => 'anonymous user',
     ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own events content'.
+  $permissions['edit own events content'] = array(
+    'name' => 'edit own events content',
+    'roles' => array(),
     'module' => 'node',
   );
 

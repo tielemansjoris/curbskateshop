@@ -1,0 +1,29 @@
+.page-events {
+	.region-content .view-events .view-content .views-row {
+		border: none;
+		border-bottom: 1px solid $white;
+		h2 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		.field-type-text-with-summary {
+			color: $gray-light;
+		}
+		.field-name-field-event-afbeelding {
+			padding-right: 20px;
+		}
+		.field-name-field-wanneer {
+			font-family: "bebas", "Open Sans", sans-serif;
+	    	font-weight: 700;
+	    	font-size: 18px;
+	    	margin-top: 65px;
+	    	margin-bottom: 10px;
+	    }
+	}
+	.region-content .view-events .view-content .views-row-last {
+		border-bottom: none;
+	}
+	.region-content .view-events .view-content .views-row-first {
+		margin-top: 50px;
+	}
+}

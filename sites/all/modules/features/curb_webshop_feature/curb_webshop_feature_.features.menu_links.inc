@@ -75,6 +75,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'expanded' => 1,
     'weight' => 0,
     'customized' => 0,
+    'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: main-menu_contact:node/49.
   $menu_links['main-menu_contact:node/49'] = array(
@@ -90,6 +91,29 @@ function curb_webshop_feature__menu_default_menu_links() {
         'style' => '',
       ),
       'identifier' => 'main-menu_contact:node/49',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_events:events.
+  $menu_links['main-menu_events:events'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'events',
+    'router_path' => 'events',
+    'link_title' => 'events',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_events:events',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -189,8 +213,8 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -48,
-    'customized' => 1,
+    'weight' => 0,
+    'customized' => 0,
     'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: main-menu_trucks:product_category/15.
@@ -210,8 +234,8 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -50,
-    'customized' => 1,
+    'weight' => 0,
+    'customized' => 0,
     'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: main-menu_wheels:product_category/16.
@@ -231,8 +255,8 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => -49,
-    'customized' => 1,
+    'weight' => 0,
+    'customized' => 0,
     'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: menu-footer-navigation_company-info:<nolink>.
@@ -315,11 +339,47 @@ function curb_webshop_feature__menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: menu-payment-methods_events:events.
+  $menu_links['menu-payment-methods_events:events'] = array(
+    'menu_name' => 'menu-payment-methods',
+    'link_path' => 'events',
+    'router_path' => 'events',
+    'link_title' => 'Events',
+    'options' => array(
+      'identifier' => 'menu-payment-methods_events:events',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+  );
+  // Exported menu link: navigation_events:node/add/events.
+  $menu_links['navigation_events:node/add/events'] = array(
+    'menu_name' => 'navigation',
+    'link_path' => 'node/add/events',
+    'router_path' => 'node/add/events',
+    'link_title' => 'Events',
+    'options' => array(
+      'identifier' => 'navigation_events:node/add/events',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'navigation_add-content:node/add',
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Clothing');
   t('Company info');
+  t('Events');
   t('Home');
   t('Security & privacy');
   t('Service & support');
@@ -329,6 +389,7 @@ function curb_webshop_feature__menu_default_menu_links() {
   t('about');
   t('blog');
   t('contact');
+  t('events');
   t('home');
   t('trucks');
   t('wheels');

@@ -124,6 +124,14 @@ function curb_webshop_feature__node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'events' => array(
+      'name' => t('Events'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'page' => array(
       'name' => t('Basic page'),
       'base' => 'node_content',

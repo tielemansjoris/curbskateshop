@@ -1,0 +1,47 @@
+.node-type-product-display {
+	.node-product-display {
+		margin-top: 35px;
+		.container-24.grid-8 {
+			margin-top: 15px;
+			.field-name-commerce-price {
+				&:before {
+					content: 'Prijs:';
+					float: left;
+					font-size: 14px;
+					color: $green-hover;
+				}
+				font-size: 20px;
+				display: inline-block;
+			}
+			.field-type-text-with-summary {
+				font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
+				p {
+					margin-bottom: 0;
+				}
+			}
+			label {
+				color: $green-hover;
+			}
+			.service-links {
+				display: none;
+			}
+			input#edit-submit {
+	    		color: $white;
+				padding: 10px 50px 10px 15px;
+				background: $gray-medium;
+			    background-image: url(../images/bg_add_to_cart.png);
+			    background-position: 97% 48%;
+			    background-repeat: no-repeat;
+				border-radius: 5px;
+				border: none;
+				font-family: "bebas", "Open Sans", sans-serif;
+				&:hover {
+				background-color: $green-hover;
+				color: $black !important; 
+				}
+			}
+		}
+	}
+}
+
+    

@@ -485,4 +485,38 @@ body.front .region-postscript-third {
 .page-events .region-content .view-events .view-content .views-row-first {
   margin-top: 50px; }
 
+.node-type-product-display .node-product-display {
+  margin-top: 35px; }
+  .node-type-product-display .node-product-display .container-24.grid-8 {
+    margin-top: 15px; }
+    .node-type-product-display .node-product-display .container-24.grid-8 .field-name-commerce-price {
+      font-size: 20px;
+      display: inline-block; }
+      .node-type-product-display .node-product-display .container-24.grid-8 .field-name-commerce-price:before {
+        content: 'Prijs:';
+        float: left;
+        font-size: 14px;
+        color: #46d476; }
+    .node-type-product-display .node-product-display .container-24.grid-8 .field-type-text-with-summary {
+      font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif; }
+      .node-type-product-display .node-product-display .container-24.grid-8 .field-type-text-with-summary p {
+        margin-bottom: 0; }
+    .node-type-product-display .node-product-display .container-24.grid-8 label {
+      color: #46d476; }
+    .node-type-product-display .node-product-display .container-24.grid-8 .service-links {
+      display: none; }
+    .node-type-product-display .node-product-display .container-24.grid-8 input#edit-submit {
+      color: white;
+      padding: 10px 50px 10px 15px;
+      background: #7d7d7d;
+      background-image: url(../images/bg_add_to_cart.png);
+      background-position: 97% 48%;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+      border: none;
+      font-family: "bebas", "Open Sans", sans-serif; }
+      .node-type-product-display .node-product-display .container-24.grid-8 input#edit-submit:hover {
+        background-color: #46d476;
+        color: black !important; }
+
 /*# sourceMappingURL=custom.css.map */

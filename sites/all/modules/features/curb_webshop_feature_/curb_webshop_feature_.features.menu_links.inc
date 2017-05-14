@@ -297,17 +297,164 @@ function curb_webshop_feature__menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: menu-user-menu_log-in:user/login.
+  $menu_links['menu-user-menu_log-in:user/login'] = array(
+    'menu_name' => 'menu-user-menu',
+    'link_path' => 'user/login',
+    'router_path' => 'user/login',
+    'link_title' => 'Log in',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-user-menu_log-in:user/login',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 1,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-user-menu_log-out:user/logout.
+  $menu_links['menu-user-menu_log-out:user/logout'] = array(
+    'menu_name' => 'menu-user-menu',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log out',
+    'options' => array(
+      'attributes' => array(),
+      'identifier' => 'menu-user-menu_log-out:user/logout',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 4,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-user-menu_maak-account-aan:user/register.
+  $menu_links['menu-user-menu_maak-account-aan:user/register'] = array(
+    'menu_name' => 'menu-user-menu',
+    'link_path' => 'user/register',
+    'router_path' => 'user/register',
+    'link_title' => 'Maak account aan',
+    'options' => array(
+      'identifier' => 'menu-user-menu_maak-account-aan:user/register',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 2,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-user-menu_mijn-account:user.
+  $menu_links['menu-user-menu_mijn-account:user'] = array(
+    'menu_name' => 'menu-user-menu',
+    'link_path' => 'user',
+    'router_path' => 'user',
+    'link_title' => 'Mijn account',
+    'options' => array(
+      'alter' => TRUE,
+      'identifier' => 'menu-user-menu_mijn-account:user',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 3,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-user-menu_mijn-winkelwagen:cart/my.
+  $menu_links['menu-user-menu_mijn-winkelwagen:cart/my'] = array(
+    'menu_name' => 'menu-user-menu',
+    'link_path' => 'cart/my',
+    'router_path' => 'cart/my',
+    'link_title' => 'Mijn winkelwagen',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-user-menu_mijn-winkelwagen:cart/my',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: user-menu_log-out:user/logout.
+  $menu_links['user-menu_log-out:user/logout'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log out',
+    'options' => array(
+      'identifier' => 'user-menu_log-out:user/logout',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 10,
+    'customized' => 0,
+  );
+  // Exported menu link: user-menu_user-account:user.
+  $menu_links['user-menu_user-account:user'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user',
+    'router_path' => 'user',
+    'link_title' => 'User account',
+    'options' => array(
+      'alter' => TRUE,
+      'identifier' => 'user-menu_user-account:user',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -10,
+    'customized' => 0,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Clothing');
   t('Company info');
   t('Home');
+  t('Log in');
+  t('Log out');
+  t('Maak account aan');
+  t('Mijn account');
+  t('Mijn winkelwagen');
   t('Security & privacy');
   t('Service & support');
   t('Shipping & returns');
   t('Shop');
   t('Skateboards');
+  t('User account');
   t('about');
   t('blog');
   t('contact');

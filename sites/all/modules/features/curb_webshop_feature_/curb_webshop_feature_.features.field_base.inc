@@ -317,6 +317,52 @@ function curb_webshop_feature__field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_size'.
+  $field_bases['field_size'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_size',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'S' => 'S',
+        'M' => 'M',
+        'L' => 'L',
+        'XL' => 'XL',
+        'XXL' => 'XXL',
+        5 => 5,
+        '5,5' => '5,5',
+        6 => 6,
+        '6,5' => '6,5',
+        7 => 7,
+        '7,5' => '7,5',
+        8 => 8,
+        '8,5' => '8,5',
+        9 => 9,
+        '9,5' => '9,5',
+        10 => 10,
+        '10,5' => '10,5',
+        11 => 11,
+        '11,5' => '11,5',
+        12 => 12,
+        '12,5' => '12,5',
+        13 => 13,
+        '13,5' => '13,5',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_team_image'.
   $field_bases['field_team_image'] = array(
     'active' => 1,

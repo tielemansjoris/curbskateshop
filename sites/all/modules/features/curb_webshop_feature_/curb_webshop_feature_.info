@@ -179,7 +179,6 @@ features[image][] = front_img_sub
 features[image][] = front_large
 features[menu_custom][] = main-menu
 features[menu_custom][] = user-menu
-features[menu_links][] = devel_theme-registry:devel/theme/registry
 features[menu_links][] = main-menu_about:node/48
 features[menu_links][] = main-menu_blog:blog
 features[menu_links][] = main-menu_clothing:product_category/14

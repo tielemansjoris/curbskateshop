@@ -10,6 +10,15 @@
 function curb_webshop_feature__user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'administer themes'.
+  $permissions['administer themes'] = array(
+    'name' => 'administer themes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'system',
+  );
+
   // Exported permission: 'create any about_us bean'.
   $permissions['create any about_us bean'] = array(
     'name' => 'create any about_us bean',
@@ -126,6 +135,15 @@ function curb_webshop_feature__user_default_permissions() {
     'name' => 'view any about_us bean',
     'roles' => array(),
     'module' => 'bean',
+  );
+
+  // Exported permission: 'view the administration theme'.
+  $permissions['view the administration theme'] = array(
+    'name' => 'view the administration theme',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'system',
   );
 
   return $permissions;

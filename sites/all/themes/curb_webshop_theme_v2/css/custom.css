@@ -9,7 +9,10 @@
 #section-header {
   background-color: white;
   background-image: url(../images/header/bg-pattern.jpg);
-  border-bottom: 6px solid #e5e5e5; }
+  border-bottom: 4px solid #e5e5e5; }
+
+#zone-menu-wrapper {
+  border-bottom: 2px #e1e1e1 solid; }
 
 #zone-menu .megamenu-skin-friendly .megamenu-parent-title a {
   color: #000; }
@@ -21,9 +24,28 @@
   float: left;
   padding: 15px 0;
   font-size: 24px; }
+  #block-megamenu-main-menu .megamenu-parent-1 .megamenu-slots-columnar {
+    top: 35px !important;
+    width: 720px !important;
+    left: 0px !important;
+    padding-left: 0px;
+    padding-bottom: 0px; }
+    #block-megamenu-main-menu .megamenu-parent-1 .megamenu-slots-columnar li.megamenu-slot {
+      padding: 0 10px;
+      height: 30px;
+      border: 1px #e5e5e5 solid;
+      background-color: #f0f0f0; }
+      #block-megamenu-main-menu .megamenu-parent-1 .megamenu-slots-columnar li.megamenu-slot h3.megamenu-slot-title {
+        bottom: 7px;
+        position: relative; }
+        #block-megamenu-main-menu .megamenu-parent-1 .megamenu-slots-columnar li.megamenu-slot h3.megamenu-slot-title a {
+          color: #7d7d7d; }
+          #block-megamenu-main-menu .megamenu-parent-1 .megamenu-slots-columnar li.megamenu-slot h3.megamenu-slot-title a:hover {
+            color: black; }
   #block-megamenu-main-menu .megamenu-parent {
     margin-right: 35px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    top: 30px; }
     #block-megamenu-main-menu .megamenu-parent .megamenu-bin li {
       list-style: none;
       display: inline-block; }
@@ -40,20 +62,17 @@
         #block-megamenu-main-menu .megamenu-parent .megamenu-slot a .active {
           color: #46d476; }
   #block-megamenu-main-menu .megamenu-parent.first {
-    vertical-align: top; }
+    vertical-align: top;
+    top: initial; }
   #block-megamenu-main-menu .megamenu-parent.last {
     margin-right: 0; }
   #block-megamenu-main-menu .home-menu {
     display: inline-block;
     background: url("../logo.png") no-repeat center;
     background-size: contain;
-    width: 100px;
-    height: 62px;
+    width: 150px;
+    height: 100px;
     text-indent: -999px; }
-
-#block-megamenu-menu-user-menu,
-#block-megamenu-menu-social-connection {
-  display: none; }
 
 #block-system-user-menu {
   float: right; }
@@ -63,6 +82,47 @@
   #block-system-user-menu li {
     display: inline-block;
     width: auto; }
+
+.section-header .zone-user-wrapper {
+  background-color: #e5e5e5;
+  border-bottom: 2px gainsboro solid;
+  height: 30px; }
+  .section-header .zone-user-wrapper .block {
+    display: inline-block;
+    padding-top: 5px; }
+  .section-header .zone-user-wrapper .block-megamenu-menu-social-connection {
+    float: left; }
+    .section-header .zone-user-wrapper .block-megamenu-menu-social-connection h2.megamenu-parent-title {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      overflow: hidden;
+      margin-right: 5px; }
+  .section-header .zone-user-wrapper .block-menu-user-menu .megamenu-parent {
+    padding: 0 5px;
+    display: inline-block;
+    border-left: 1px #c8c8c8 solid; }
+    .section-header .zone-user-wrapper .block-menu-user-menu .megamenu-parent a {
+      color: black;
+      font-size: 12px; }
+      .section-header .zone-user-wrapper .block-menu-user-menu .megamenu-parent a:hover {
+        color: #46d476; }
+  .section-header .zone-user-wrapper input#edit-submit {
+    color: white;
+    padding: 4px 7px;
+    background: #373737;
+    border-radius: 5px;
+    border: none;
+    font-family: "bebas", "Open Sans", sans-serif; }
+    .section-header .zone-user-wrapper input#edit-submit:hover {
+      background-color: #46d476;
+      color: black !important; }
+  .section-header .zone-user-wrapper #region-user-second {
+    background-color: #e5e5e5;
+    text-align: right;
+    padding-right: 15px; }
+    .section-header .zone-user-wrapper #region-user-second .block {
+      padding-top: 3px; }
 
 body {
   background-color: black;

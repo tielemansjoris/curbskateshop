@@ -1,7 +1,11 @@
 #section-header {
 	background-color: $white;
 	background-image: url(../images/header/bg-pattern.jpg);
-	border-bottom: 6px solid #e5e5e5;
+	border-bottom: 4px solid #e5e5e5;
+}
+
+#zone-menu-wrapper {
+	border-bottom: 2px rgb(225,225,225) solid; 
 }
 
 #zone-menu {
@@ -18,9 +22,35 @@
 	float: left;
 	padding: 15px 0;
 	font-size: 24px;
+	.megamenu-parent-1 {
+		.megamenu-slots-columnar {
+			top: 35px !important; 
+			width: 720px !important;
+			left: 0px !important;
+			padding-left: 0px;
+			padding-bottom: 0px;	
+			li.megamenu-slot {
+				padding: 0 10px;
+				height: 30px;
+				border: 1px $gray-light solid;
+				background-color: rgb(240,240,240);
+				h3.megamenu-slot-title {
+				    bottom: 7px;
+    				position: relative;
+    				a {
+    					color: $gray-medium;
+    					&:hover {
+    						color: $black;
+    					}
+    				}
+				}
+			}
+		}
+	}
 	.megamenu-parent {
 		margin-right: 35px;
 		vertical-align: middle;
+		top: 30px;
 		.megamenu-bin {
 			li {
 				list-style: none;
@@ -46,6 +76,7 @@
 	}
 	.megamenu-parent.first {
 		vertical-align: top;
+		top: initial;
 	}
 	.megamenu-parent.last {
 		margin-right: 0;
@@ -54,16 +85,12 @@
 		display: inline-block;
 		background: url('../logo.png') no-repeat center;
 		background-size: contain;
-		width: 100px;
-		height: 62px;
+		width: 150px;
+		height: 100px;
 		text-indent: -999px;
 	}
 }
 
-#block-megamenu-menu-user-menu,
-#block-megamenu-menu-social-connection {
-	display: none; // hide temporarily
-}
 
 
 #block-system-user-menu {
@@ -77,3 +104,62 @@
 		width: auto;
 	}
 }
+
+.section-header {
+	.zone-user-wrapper {
+		background-color: #e5e5e5;
+		border-bottom: 2px rgb(220,220,220) solid; 
+		height: 30px;
+
+	    .block {
+	    	display: inline-block;
+	    	padding-top: 5px;
+	    }
+	    .block-megamenu-menu-social-connection {
+	    	float: left;
+	    	h2.megamenu-parent-title {
+    		    display: inline-block;
+			    width: 20px;
+			    height: 20px;
+			    overflow: hidden;
+			    margin-right: 5px;
+	    	}
+	    }
+	    .block-menu-user-menu {
+	    	.megamenu-parent {
+	    		padding: 0 5px; 
+	    		display: inline-block;
+	    		border-left: 1px rgb(200,200,200) solid;
+	    		a {
+	    			color: $black;
+	    			font-size: 12px;
+	    			&:hover {
+	    				color: $green-hover;
+	    			}
+	    		}
+	    	}
+	    } 
+	    input#edit-submit {
+    		color: $white;
+			padding: 4px 7px;
+			background: $gray-dark;
+			border-radius: 5px;
+			border: none;
+			font-family: "bebas", "Open Sans", sans-serif;
+			&:hover {
+			background-color: $green-hover;
+			color: $black !important;
+			}
+	    }
+	    #region-user-second {
+	    	background-color: $gray-light;
+	    	text-align: right;
+	    	padding-right: 15px;
+	    	.block {
+	    		padding-top: 3px;
+	    	}
+	    }
+	}
+}
+
+

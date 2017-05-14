@@ -10,6 +10,26 @@
 function curb_webshop_feature__menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: devel_theme-registry:devel/theme/registry.
+  $menu_links['devel_theme-registry:devel/theme/registry'] = array(
+    'menu_name' => 'devel',
+    'link_path' => 'devel/theme/registry',
+    'router_path' => 'devel/theme/registry',
+    'link_title' => 'Theme registry',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'View a list of available theme functions across the whole site.',
+      ),
+      'identifier' => 'devel_theme-registry:devel/theme/registry',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+  );
   // Exported menu link: main-menu_about:node/48.
   $menu_links['main-menu_about:node/48'] = array(
     'menu_name' => 'main-menu',
@@ -73,7 +93,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => 0,
+    'weight' => 1,
     'customized' => 0,
     'parent_identifier' => 'main-menu_shop:shop',
   );
@@ -213,49 +233,7 @@ function curb_webshop_feature__menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_shop:shop',
-  );
-  // Exported menu link: main-menu_trucks:product_category/15.
-  $menu_links['main-menu_trucks:product_category/15'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'product_category/15',
-    'router_path' => 'product_category/%',
-    'link_title' => 'trucks',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'trucks',
-      ),
-      'identifier' => 'main-menu_trucks:product_category/15',
-    ),
-    'module' => 'taxonomy_menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 1,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_shop:shop',
-  );
-  // Exported menu link: main-menu_wheels:product_category/16.
-  $menu_links['main-menu_wheels:product_category/16'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'product_category/16',
-    'router_path' => 'product_category/%',
-    'link_title' => 'wheels',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'wheels',
-      ),
-      'identifier' => 'main-menu_wheels:product_category/16',
-    ),
-    'module' => 'taxonomy_menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 1,
-    'weight' => 0,
+    'weight' => 2,
     'customized' => 0,
     'parent_identifier' => 'main-menu_shop:shop',
   );
@@ -339,60 +317,23 @@ function curb_webshop_feature__menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-payment-methods_events:events.
-  $menu_links['menu-payment-methods_events:events'] = array(
-    'menu_name' => 'menu-payment-methods',
-    'link_path' => 'events',
-    'router_path' => 'events',
-    'link_title' => 'Events',
-    'options' => array(
-      'identifier' => 'menu-payment-methods_events:events',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-  );
-  // Exported menu link: navigation_events:node/add/events.
-  $menu_links['navigation_events:node/add/events'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'node/add/events',
-    'router_path' => 'node/add/events',
-    'link_title' => 'Events',
-    'options' => array(
-      'identifier' => 'navigation_events:node/add/events',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'navigation_add-content:node/add',
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Clothing');
   t('Company info');
-  t('Events');
   t('Home');
   t('Security & privacy');
   t('Service & support');
   t('Shipping & returns');
   t('Shop');
   t('Skateboards');
+  t('Theme registry');
   t('about');
   t('blog');
   t('contact');
   t('events');
   t('home');
-  t('trucks');
-  t('wheels');
 
   return $menu_links;
 }

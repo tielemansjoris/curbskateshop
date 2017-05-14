@@ -30,9 +30,13 @@ function curb_webshop_feature__default_fe_block_boxes() {
   $fe_block_boxes->info = 'footer info';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'footer_info';
-  $fe_block_boxes->body = '<b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Mauris commodo elit id scelerisque auctor. Praesent vestibulum nulla vitae elit pretium, nec auctor leo eleifend. Praesent eget felis ac urna dictum malesuada. In est magna, congue nec mi eu, volutpat porta nisi. Pellentesque libero ex, laoreet in nibh a, vestibulum imperdiet est.
+  $fe_block_boxes->body = 'laat het mij zo zeggen, alles boven BR kan je veranderen.
 <br>
-<a href="shop" class="cta">Bezoek onze webshop</a>';
+<a href="shop" class="cta" target="blank">Bezoek onze webshop</a>
+<br>
+<a href="shop" class="cta">Bezoek onze facebookpagina</a>
+<br>
+<a href="shop" class="cta">Bezoek onze evenementen</a>';
 
   $export['footer_info'] = $fe_block_boxes;
 

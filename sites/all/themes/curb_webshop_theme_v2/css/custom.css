@@ -505,7 +505,7 @@ body.front .region-postscript-third {
       color: #46d476; }
     .node-type-product-display .node-product-display .container-24.grid-8 .service-links {
       display: none; }
-    .node-type-product-display .node-product-display .container-24.grid-8 input#edit-submit {
+    .node-type-product-display .node-product-display .container-24.grid-8 input .form-submit {
       color: white;
       padding: 10px 50px 10px 15px;
       background: #7d7d7d;
@@ -515,7 +515,7 @@ body.front .region-postscript-third {
       border-radius: 5px;
       border: none;
       font-family: "bebas", "Open Sans", sans-serif; }
-      .node-type-product-display .node-product-display .container-24.grid-8 input#edit-submit:hover {
+      .node-type-product-display .node-product-display .container-24.grid-8 input .form-submit:hover {
         background-color: #46d476;
         color: black !important; }
 

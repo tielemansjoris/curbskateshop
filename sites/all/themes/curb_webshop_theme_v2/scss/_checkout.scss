@@ -1,0 +1,54 @@
+body {
+	&.page-cart,
+	&.page-checkout,
+	&.page-user-orders,
+	&.page-user {
+		.view-commerce-addressbook-defaults .views-field {
+			background-color: $black;
+		}
+		span.fieldset-legend {
+			font-size: 24px;
+			font-family: "bebas", "Open Sans", sans-serif;
+			display: block;
+			margin-bottom: 20px;
+		}
+		div#commerce-shipping-service-ajax-wrapper {
+			margin-bottom: 10px;
+		}
+		.region-content {
+			padding-top: 50px;
+			a {
+				color: $green-hover
+			}
+			.field-name-commerce-order-total .field-items {
+				background-color: $green-hover;
+				color: $white;
+				table.commerce-price-formatted-components td {
+					border-bottom-color: $white !important;
+				}
+			}
+			input#edit-checkout,
+			input#edit-continue {
+				background-color: $gray-medium !important;
+				&:hover {
+					background-color: $green-hover !important;
+				}
+			}
+		}
+		.form-item-commerce-shipping-shipping-service:hover, .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {
+			background-color: $green-hover !important;
+		}
+		tr.even, tr.odd {
+			background-color: transparent
+		}
+	}
+	&.page-checkout {
+		.checkout-buttons {
+			margin: 0px !important;
+		}
+		.fieldset-wrapper {
+			margin: 0px !important;
+		}
+	}
+}
+

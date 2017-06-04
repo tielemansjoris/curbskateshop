@@ -8,6 +8,14 @@ body {
 		}
 	}
 }
+
+
+.front {
+	.node {
+		border: none;
+	}
+}
+
 h2.block-title {
 	color: $white;
 	font-size: 24px;
@@ -26,9 +34,10 @@ body.front {
 		font-size: 24px;
 	}
 	.zone-wrapper {
-
-		article {
-			display: none;
+		.region-content-inner {
+			article {
+				display: none;
+			}	
 		}
 		.region-content,
 		.region-postscript-first,

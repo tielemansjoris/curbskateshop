@@ -801,7 +801,6 @@ select {
     text-indent: -9999px; }
 
 .front .node {
-  border: 1px solid #E0E3E6;
   display: block;
   margin: 15px 0px;
   padding: 10px 15px;
@@ -2071,9 +2070,6 @@ ol.inline.commerce-checkout-progress {
     position: absolute;
     top: 0;
     left: 0; }
-  .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover, .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {
-    background-color: #ececec;
-    cursor: pointer; }
 
 /**
 * Review order page
@@ -2175,7 +2171,6 @@ ol.inline.commerce-checkout-progress {
   width: 45%; }
   .page-user-orders .field-name-commerce-customer-billing .field-label,
   .page-user-orders .field-name-commerce-customer-shipping .field-label {
-    background-color: #E5E5E5;
     font-size: 14px;
     padding: 7px 10px; }
   .page-user-orders .field-name-commerce-customer-billing .field-items,

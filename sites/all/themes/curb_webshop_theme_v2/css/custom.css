@@ -132,6 +132,9 @@ body {
     body a:link:hover {
       opacity: 0.8; }
 
+.front .node {
+  border: none; }
+
 h2.block-title {
   color: white;
   font-size: 24px; }
@@ -142,7 +145,7 @@ div#zone-content {
 
 body.front h2.block-title {
   font-size: 24px; }
-body.front .zone-wrapper article {
+body.front .zone-wrapper .region-content-inner article {
   display: none; }
 body.front .zone-wrapper .region-content,
 body.front .zone-wrapper .region-postscript-first,
@@ -350,30 +353,28 @@ a.cta {
 
 body.front .region-postscript-third {
   margin: 75px 0 0 0; }
-  body.front .region-postscript-third .block-new-arrivals-front--block h2.block-title {
+  body.front .region-postscript-third .block-views-display-products-block-1 h2.block-title {
     text-align: center;
     margin-bottom: 25px; }
-  body.front .region-postscript-third .block-new-arrivals-front--block .view-content {
-    text-align: center; }
-  body.front .region-postscript-third .block-new-arrivals-front--block .views-row {
+  body.front .region-postscript-third .block-views-display-products-block-1 .views-row {
+    margin: 0;
+    width: 30%;
     display: inline-block;
-    width: 29%;
-    margin-bottom: 20px; }
-    body.front .region-postscript-third .block-new-arrivals-front--block .views-row span.field-content a {
-      font-family: "bebas", "Open Sans", sans-serif;
-      font-weight: 700;
-      letter-spacing: 0;
-      color: white; }
-      body.front .region-postscript-third .block-new-arrivals-front--block .views-row span.field-content a:hover {
+    vertical-align: center;
+    padding: 0 10px;
+    text-align: center; }
+    body.front .region-postscript-third .block-views-display-products-block-1 .views-row h2 {
+      margin-bottom: 0; }
+    body.front .region-postscript-third .block-views-display-products-block-1 .views-row h2 a {
+      color: white;
+      font-size: 14px; }
+      body.front .region-postscript-third .block-views-display-products-block-1 .views-row h2 a:hover {
         color: #46d476; }
-    body.front .region-postscript-third .block-new-arrivals-front--block .views-row .views-field-title {
-      margin-top: 10px; }
-    body.front .region-postscript-third .block-new-arrivals-front--block .views-row .field-name-commerce-price {
-      font-family: "bebas", "Open Sans", sans-serif;
-      font-weight: 700;
-      letter-spacing: 0;
-      color: #7d7d7d;
-      font-size: 12px; }
+    body.front .region-postscript-third .block-views-display-products-block-1 .views-row .commerce-product-field .field-item {
+      font-size: 12px;
+      color: #7d7d7d; }
+    body.front .region-postscript-third .block-views-display-products-block-1 .views-row .commerce-product-field span.price_prefix {
+      display: none; }
 
 .block-about-us,
 .block-team-block {
@@ -487,6 +488,14 @@ body.front .region-postscript-third {
 
 .node-type-product-display .node-product-display {
   margin-top: 35px; }
+  .node-type-product-display .node-product-display .cloud-zoom-gallery-thumbs {
+    max-width: 410px;
+    margin-top: 10px; }
+    .node-type-product-display .node-product-display .cloud-zoom-gallery-thumbs a {
+      width: 32%;
+      margin-left: 3px; }
+      .node-type-product-display .node-product-display .cloud-zoom-gallery-thumbs a:first-child {
+        margin-left: 0px; }
   .node-type-product-display .node-product-display .container-24.grid-8 {
     margin-top: 15px; }
     .node-type-product-display .node-product-display .container-24.grid-8 .field-name-commerce-price {
@@ -505,7 +514,7 @@ body.front .region-postscript-third {
       color: #46d476; }
     .node-type-product-display .node-product-display .container-24.grid-8 .service-links {
       display: none; }
-    .node-type-product-display .node-product-display .container-24.grid-8 input .form-submit {
+    .node-type-product-display .node-product-display .container-24.grid-8 input.form-submit {
       color: white;
       padding: 10px 50px 10px 15px;
       background: #7d7d7d;
@@ -515,11 +524,50 @@ body.front .region-postscript-third {
       border-radius: 5px;
       border: none;
       font-family: "bebas", "Open Sans", sans-serif; }
-      .node-type-product-display .node-product-display .container-24.grid-8 input .form-submit:hover {
+      .node-type-product-display .node-product-display .container-24.grid-8 input.form-submit:hover {
         background-color: #46d476;
         color: black !important; }
 
 body.maintenance-page {
   color: black; }
+
+body.page-cart .view-commerce-addressbook-defaults .views-field, body.page-checkout .view-commerce-addressbook-defaults .views-field, body.page-user-orders .view-commerce-addressbook-defaults .views-field, body.page-user .view-commerce-addressbook-defaults .views-field {
+  background-color: black; }
+body.page-cart span.fieldset-legend, body.page-checkout span.fieldset-legend, body.page-user-orders span.fieldset-legend, body.page-user span.fieldset-legend {
+  font-size: 24px;
+  font-family: "bebas", "Open Sans", sans-serif;
+  display: block;
+  margin-bottom: 20px; }
+body.page-cart div#commerce-shipping-service-ajax-wrapper, body.page-checkout div#commerce-shipping-service-ajax-wrapper, body.page-user-orders div#commerce-shipping-service-ajax-wrapper, body.page-user div#commerce-shipping-service-ajax-wrapper {
+  margin-bottom: 10px; }
+body.page-cart .region-content, body.page-checkout .region-content, body.page-user-orders .region-content, body.page-user .region-content {
+  padding-top: 50px; }
+  body.page-cart .region-content a, body.page-checkout .region-content a, body.page-user-orders .region-content a, body.page-user .region-content a {
+    color: #46d476; }
+  body.page-cart .region-content .field-name-commerce-order-total .field-items, body.page-checkout .region-content .field-name-commerce-order-total .field-items, body.page-user-orders .region-content .field-name-commerce-order-total .field-items, body.page-user .region-content .field-name-commerce-order-total .field-items {
+    background-color: #46d476;
+    color: white; }
+    body.page-cart .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-checkout .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-user-orders .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-user .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td {
+      border-bottom-color: white !important; }
+  body.page-cart .region-content input#edit-checkout,
+  body.page-cart .region-content input#edit-continue, body.page-checkout .region-content input#edit-checkout,
+  body.page-checkout .region-content input#edit-continue, body.page-user-orders .region-content input#edit-checkout,
+  body.page-user-orders .region-content input#edit-continue, body.page-user .region-content input#edit-checkout,
+  body.page-user .region-content input#edit-continue {
+    background-color: #7d7d7d !important; }
+    body.page-cart .region-content input#edit-checkout:hover,
+    body.page-cart .region-content input#edit-continue:hover, body.page-checkout .region-content input#edit-checkout:hover,
+    body.page-checkout .region-content input#edit-continue:hover, body.page-user-orders .region-content input#edit-checkout:hover,
+    body.page-user-orders .region-content input#edit-continue:hover, body.page-user .region-content input#edit-checkout:hover,
+    body.page-user .region-content input#edit-continue:hover {
+      background-color: #46d476 !important; }
+body.page-cart .form-item-commerce-shipping-shipping-service:hover, body.page-cart .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-checkout .form-item-commerce-shipping-shipping-service:hover, body.page-checkout .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-user-orders .form-item-commerce-shipping-shipping-service:hover, body.page-user-orders .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-user .form-item-commerce-shipping-shipping-service:hover, body.page-user .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {
+  background-color: #46d476 !important; }
+body.page-cart tr.even, body.page-cart tr.odd, body.page-checkout tr.even, body.page-checkout tr.odd, body.page-user-orders tr.even, body.page-user-orders tr.odd, body.page-user tr.even, body.page-user tr.odd {
+  background-color: transparent; }
+body.page-checkout .checkout-buttons {
+  margin: 0px !important; }
+body.page-checkout .fieldset-wrapper {
+  margin: 0px !important; }
 
 /*# sourceMappingURL=custom.css.map */

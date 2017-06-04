@@ -69,12 +69,12 @@ function curb_webshop_feature__menu_default_menu_links() {
       'identifier' => 'main-menu_clothing:product_category/14',
     ),
     'module' => 'taxonomy_menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => 1,
-    'customized' => 0,
+    'weight' => -43,
+    'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: main-menu_contact:node/49.
@@ -209,12 +209,12 @@ function curb_webshop_feature__menu_default_menu_links() {
       'identifier' => 'main-menu_skateboards:product_category/13',
     ),
     'module' => 'taxonomy_menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => 2,
-    'customized' => 0,
+    'weight' => -42,
+    'customized' => 1,
     'parent_identifier' => 'main-menu_shop:shop',
   );
   // Exported menu link: menu-footer-navigation_company-info:<nolink>.
@@ -380,46 +380,6 @@ function curb_webshop_feature__menu_default_menu_links() {
     'weight' => 3,
     'customized' => 1,
   );
-  // Exported menu link: menu-user-menu_mijn-winkelwagen:cart/my.
-  $menu_links['menu-user-menu_mijn-winkelwagen:cart/my'] = array(
-    'menu_name' => 'menu-user-menu',
-    'link_path' => 'cart/my',
-    'router_path' => 'cart/my',
-    'link_title' => 'Mijn winkelwagen',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-user-menu_mijn-winkelwagen:cart/my',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: user-menu_log-out:user/logout.
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
-    'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 10,
-    'customized' => 0,
-  );
   // Exported menu link: user-menu_user-account:user.
   $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
@@ -448,7 +408,6 @@ function curb_webshop_feature__menu_default_menu_links() {
   t('Log out');
   t('Maak account aan');
   t('Mijn account');
-  t('Mijn winkelwagen');
   t('Security & privacy');
   t('Service & support');
   t('Shipping & returns');

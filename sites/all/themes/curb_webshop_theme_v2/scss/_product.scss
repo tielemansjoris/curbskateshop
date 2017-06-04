@@ -1,6 +1,17 @@
 .node-type-product-display {
 	.node-product-display {
 		margin-top: 35px;
+		.cloud-zoom-gallery-thumbs {
+			max-width: 410px;
+			margin-top: 10px;
+			a {
+				width: 32%;
+				margin-left: 3px;
+				&:first-child {
+					margin-left: 0px;
+				}
+			}
+		}
 		.container-24.grid-8 {
 			margin-top: 15px;
 			.field-name-commerce-price {
@@ -25,7 +36,7 @@
 			.service-links {
 				display: none;
 			}
-			input .form-submit {
+			input.form-submit {
 	    		color: $white;
 				padding: 10px 50px 10px 15px;
 				background: $gray-medium;

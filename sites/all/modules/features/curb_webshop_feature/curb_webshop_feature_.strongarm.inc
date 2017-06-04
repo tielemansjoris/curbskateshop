@@ -412,7 +412,14 @@ function curb_webshop_feature__strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'footer_sitemap_hidden_links';
-  $strongarm->value = array();
+  $strongarm->value = array(
+    1582 => '1582',
+    1584 => '1584',
+    1579 => '1579',
+    1580 => '1580',
+    1581 => '1581',
+    1554 => '1554',
+  );
   $export['footer_sitemap_hidden_links'] = $strongarm;
 
   $strongarm = new stdClass();

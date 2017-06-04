@@ -329,7 +329,7 @@ function curb_webshop_feature__default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => 21,
+        'weight' => -34,
       ),
       'omega_kickstart' => array(
         'region' => '',
@@ -2029,6 +2029,39 @@ shop/*',
     'visibility' => 0,
   );
 
+  $export['views-display_products-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'display_products-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'curb_webshop_theme_v2' => array(
+        'region' => 'postscript_third',
+        'status' => 1,
+        'theme' => 'curb_webshop_theme_v2',
+        'weight' => -34,
+      ),
+      'omega_kickstart' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'omega_kickstart',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-new_arrivals_front_-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -2046,10 +2079,10 @@ shop/*',
         'weight' => 0,
       ),
       'curb_webshop_theme_v2' => array(
-        'region' => 'postscript_third',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'curb_webshop_theme_v2',
-        'weight' => 0,
+        'weight' => -33,
       ),
       'omega_kickstart' => array(
         'region' => '',

@@ -890,7 +890,6 @@ select {
 }
 
 .front .node {
-  border: 1px solid #E0E3E6;
   display: block;
   margin: 15px 0px;
   padding: 10px 15px;
@@ -2295,11 +2294,6 @@ ol.inline.commerce-checkout-progress {
       top: 0;
       left: 0;
     }
-    &:hover,
-    &:hover .option {
-      background-color: #ececec;
-      cursor: pointer;
-    }
   }
 }
 
@@ -2379,7 +2373,6 @@ ol.inline.commerce-checkout-progress {
     margin: 5px 3% 0 0; /* LTR */
     width: 45%;
     .field-label {
-      background-color: #E5E5E5;
       font-size: 14px;
       padding:7px 10px;
     }

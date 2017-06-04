@@ -356,6 +356,8 @@ function curb_webshop_feature__field_default_field_bases() {
         '12,5' => '12,5',
         13 => 13,
         '13,5' => '13,5',
+        '7,5 (40)' => '7,5 (40)',
+        '7,5 (41)' => '7,5 (41)',
       ),
       'allowed_values_function' => '',
     ),

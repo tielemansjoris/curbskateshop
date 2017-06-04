@@ -533,9 +533,17 @@ body.maintenance-page {
 
 body.page-cart .view-commerce-addressbook-defaults .views-field, body.page-checkout .view-commerce-addressbook-defaults .views-field, body.page-user-orders .view-commerce-addressbook-defaults .views-field, body.page-user .view-commerce-addressbook-defaults .views-field {
   background-color: black; }
-body.page-cart span.fieldset-legend, body.page-checkout span.fieldset-legend, body.page-user-orders span.fieldset-legend, body.page-user span.fieldset-legend {
-  font-size: 24px;
-  font-family: "bebas", "Open Sans", sans-serif;
+body.page-cart span.fieldset-legend,
+body.page-cart h1,
+body.page-cart .create-account h2, body.page-checkout span.fieldset-legend,
+body.page-checkout h1,
+body.page-checkout .create-account h2, body.page-user-orders span.fieldset-legend,
+body.page-user-orders h1,
+body.page-user-orders .create-account h2, body.page-user span.fieldset-legend,
+body.page-user h1,
+body.page-user .create-account h2 {
+  font-size: 24px !important;
+  font-family: "bebas", "Open Sans", sans-serif !important;
   display: block;
   margin-bottom: 20px; }
 body.page-cart div#commerce-shipping-service-ajax-wrapper, body.page-checkout div#commerce-shipping-service-ajax-wrapper, body.page-user-orders div#commerce-shipping-service-ajax-wrapper, body.page-user div#commerce-shipping-service-ajax-wrapper {
@@ -544,23 +552,38 @@ body.page-cart .region-content, body.page-checkout .region-content, body.page-us
   padding-top: 50px; }
   body.page-cart .region-content a, body.page-checkout .region-content a, body.page-user-orders .region-content a, body.page-user .region-content a {
     color: #46d476; }
+    body.page-cart .region-content a.login-register, body.page-checkout .region-content a.login-register, body.page-user-orders .region-content a.login-register, body.page-user .region-content a.login-register {
+      color: white;
+      background-color: #7d7d7d; }
+      body.page-cart .region-content a.login-register:hover, body.page-checkout .region-content a.login-register:hover, body.page-user-orders .region-content a.login-register:hover, body.page-user .region-content a.login-register:hover {
+        background-color: #46d476; }
   body.page-cart .region-content .field-name-commerce-order-total .field-items, body.page-checkout .region-content .field-name-commerce-order-total .field-items, body.page-user-orders .region-content .field-name-commerce-order-total .field-items, body.page-user .region-content .field-name-commerce-order-total .field-items {
     background-color: #46d476;
     color: white; }
     body.page-cart .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-checkout .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-user-orders .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td, body.page-user .region-content .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td {
       border-bottom-color: white !important; }
+  body.page-cart .region-content input#edit-submit,
   body.page-cart .region-content input#edit-checkout,
-  body.page-cart .region-content input#edit-continue, body.page-checkout .region-content input#edit-checkout,
-  body.page-checkout .region-content input#edit-continue, body.page-user-orders .region-content input#edit-checkout,
-  body.page-user-orders .region-content input#edit-continue, body.page-user .region-content input#edit-checkout,
+  body.page-cart .region-content input#edit-continue, body.page-checkout .region-content input#edit-submit,
+  body.page-checkout .region-content input#edit-checkout,
+  body.page-checkout .region-content input#edit-continue, body.page-user-orders .region-content input#edit-submit,
+  body.page-user-orders .region-content input#edit-checkout,
+  body.page-user-orders .region-content input#edit-continue, body.page-user .region-content input#edit-submit,
+  body.page-user .region-content input#edit-checkout,
   body.page-user .region-content input#edit-continue {
     background-color: #7d7d7d !important; }
+    body.page-cart .region-content input#edit-submit:hover,
     body.page-cart .region-content input#edit-checkout:hover,
-    body.page-cart .region-content input#edit-continue:hover, body.page-checkout .region-content input#edit-checkout:hover,
-    body.page-checkout .region-content input#edit-continue:hover, body.page-user-orders .region-content input#edit-checkout:hover,
-    body.page-user-orders .region-content input#edit-continue:hover, body.page-user .region-content input#edit-checkout:hover,
+    body.page-cart .region-content input#edit-continue:hover, body.page-checkout .region-content input#edit-submit:hover,
+    body.page-checkout .region-content input#edit-checkout:hover,
+    body.page-checkout .region-content input#edit-continue:hover, body.page-user-orders .region-content input#edit-submit:hover,
+    body.page-user-orders .region-content input#edit-checkout:hover,
+    body.page-user-orders .region-content input#edit-continue:hover, body.page-user .region-content input#edit-submit:hover,
+    body.page-user .region-content input#edit-checkout:hover,
     body.page-user .region-content input#edit-continue:hover {
       background-color: #46d476 !important; }
+  body.page-cart .region-content .back-to-login.clearfix, body.page-checkout .region-content .back-to-login.clearfix, body.page-user-orders .region-content .back-to-login.clearfix, body.page-user .region-content .back-to-login.clearfix {
+    display: none; }
 body.page-cart .form-item-commerce-shipping-shipping-service:hover, body.page-cart .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-checkout .form-item-commerce-shipping-shipping-service:hover, body.page-checkout .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-user-orders .form-item-commerce-shipping-shipping-service:hover, body.page-user-orders .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option, body.page-user .form-item-commerce-shipping-shipping-service:hover, body.page-user .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {
   background-color: #46d476 !important; }
 body.page-cart tr.even, body.page-cart tr.odd, body.page-checkout tr.even, body.page-checkout tr.odd, body.page-user-orders tr.even, body.page-user-orders tr.odd, body.page-user tr.even, body.page-user tr.odd {

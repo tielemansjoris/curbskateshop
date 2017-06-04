@@ -2594,8 +2594,6 @@ article.comment {
   .page-checkout #user_login_form .form-submit,
   .page-checkout #user_pass_form .form-submit {
     background: #199107;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #60aa20), color-stop(1, #199107));
-    background: -moz-linear-gradient(top center, #60aa20 0%, #199107 100%);
     border: 0;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -2636,13 +2634,12 @@ article.comment {
       .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
       .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
       .page-checkout form#user-profile-form .form-item-pass .password-parent .password-strength {
-        background-color: #eeeeee;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         -khtml-border-radius: 5px;
         border-radius: 5px;
         margin-top: 0;
-        padding: 10px;
+        padding: 10px 0;
         position: absolute;
         bottom: -50px;
         width: 90%; }
@@ -2718,13 +2715,9 @@ article.comment {
       border-bottom: 1px solid #444;
       padding-right: 0;
       padding-bottom: 20px; }
-      .page-user form#user-login #user_login_form .login-password,
-      .page-checkout form#user-login #user_login_form .login-password {
-        color: #2698F2; }
-        .page-user form#user-login #user_login_form .login-password:hover,
-        .page-checkout form#user-login #user_login_form .login-password:hover {
-          color: #2698F2;
-          text-decoration: underline; }
+      .page-user form#user-login #user_login_form .login-password:hover,
+      .page-checkout form#user-login #user_login_form .login-password:hover {
+        text-decoration: underline; }
     .page-user form#user-login .create-account,
     .page-checkout form#user-login .create-account {
       margin-top: 20px; }
@@ -2742,8 +2735,6 @@ article.comment {
   .page-checkout a.login-register,
   .page-checkout a.login-account {
     background: #207cca;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698F2), color-stop(1, #207cca));
-    background: -moz-linear-gradient(top center, #2698F2 0%, #207cca 100%);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;

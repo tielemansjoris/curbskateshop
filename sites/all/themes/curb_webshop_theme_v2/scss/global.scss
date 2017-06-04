@@ -2850,10 +2850,7 @@ article.comment {
   #user_login_form,
   #user_pass_form {
     .form-submit {
-      background: #199107;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #60aa20), color-stop(1, #199107));
-      background: -moz-linear-gradient(top center, #60aa20 0%, #199107 100%);
-      border: 0;
+      background: #199107;      border: 0;
       @include rounded-corners(4px);
       color: #ffffff;
       padding: 10px 15px;
@@ -2879,10 +2876,9 @@ article.comment {
         width: inherit;
 
         .password-strength {
-          background-color: #eeeeee;
           @include rounded-corners(5px);
           margin-top: 0;
-          padding: 10px;
+          padding: 10px 0;
           position: absolute;
           bottom: -50px;
           width: 90%;
@@ -2944,9 +2940,7 @@ article.comment {
       padding-bottom: 20px;
 
       .login-password {
-        color: $color1;
         &:hover {
-          color: $color1;
           text-decoration: underline;
         }
       }
@@ -2971,8 +2965,6 @@ article.comment {
   a.login-register,
   a.login-account {
     background: #207cca;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698F2), color-stop(1, #207cca));
-    background: -moz-linear-gradient(top center, #2698F2 0%, #207cca 100%);
     @include rounded-corners(4px);
     color: $color2;
     font-size: 16px;

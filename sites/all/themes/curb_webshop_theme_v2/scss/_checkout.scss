@@ -6,9 +6,11 @@ body {
 		.view-commerce-addressbook-defaults .views-field {
 			background-color: $black;
 		}
-		span.fieldset-legend {
-			font-size: 24px;
-			font-family: "bebas", "Open Sans", sans-serif;
+		span.fieldset-legend,
+		h1,
+		.create-account h2 {
+			font-size: 24px !important;
+			font-family: "bebas", "Open Sans", sans-serif !important;
 			display: block;
 			margin-bottom: 20px;
 		}
@@ -18,7 +20,14 @@ body {
 		.region-content {
 			padding-top: 50px;
 			a {
-				color: $green-hover
+				color: $green-hover;
+				&.login-register {
+					color: $white;
+					background-color: $gray-medium; 
+					&:hover {
+						background-color: $green-hover;
+					}
+				}
 			}
 			.field-name-commerce-order-total .field-items {
 				background-color: $green-hover;
@@ -27,12 +36,16 @@ body {
 					border-bottom-color: $white !important;
 				}
 			}
+			input#edit-submit,
 			input#edit-checkout,
 			input#edit-continue {
 				background-color: $gray-medium !important;
 				&:hover {
 					background-color: $green-hover !important;
 				}
+			}
+			.back-to-login.clearfix {
+				display: none;
 			}
 		}
 		.form-item-commerce-shipping-shipping-service:hover, .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {

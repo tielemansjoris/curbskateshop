@@ -519,4 +519,7 @@ body.front .region-postscript-third {
         background-color: #46d476;
         color: black !important; }
 
+body.maintenance-page {
+  color: black; }
+
 /*# sourceMappingURL=custom.css.map */

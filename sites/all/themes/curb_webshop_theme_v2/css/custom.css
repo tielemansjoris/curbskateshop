@@ -593,4 +593,53 @@ body.page-checkout .checkout-buttons {
 body.page-checkout .fieldset-wrapper {
   margin: 0px !important; }
 
+@media screen and (max-width: 980px) {
+  body.front .zone-wrapper .region-postscript-first,
+  body.front .zone-wrapper .region-postscript-second {
+    max-width: 100%;
+    margin-bottom: 10px; }
+
+  #zone-postscript,
+  #zone-content {
+    padding: 10px; } }
+@media screen and (max-width: 760px) {
+  div#block-megamenu-menu-social-connection {
+    display: none; }
+
+  #zone-footer div#region-footer-second {
+    display: none; }
+  #zone-footer .grid-8 {
+    width: 100%;
+    text-align: center; }
+
+  span.toggler {
+    font-size: 1em !important; }
+
+  #block-megamenu-main-menu .home-menu {
+    text-indent: 0;
+    background-image: none; }
+
+  div#block-megamenu-main-menu {
+    width: 100%; }
+
+  .responsive-menus {
+    text-align: center; }
+    .responsive-menus .megamenu-parent-title {
+      margin: 5px !important; }
+    .responsive-menus a,
+    .responsive-menus a.home-menu {
+      width: 100% !important;
+      height: 15px !important;
+      font-size: 15px !important;
+      padding: 5px !important;
+      display: block;
+      border: none !important; }
+    .responsive-menus .megamenu-slot {
+      background-color: transparent !important;
+      padding: 5px !important;
+      height: 15px !important;
+      margin-left: 50px !important; }
+      .responsive-menus .megamenu-slot a {
+        color: #7d7d7d !important; } }
+
 /*# sourceMappingURL=custom.css.map */

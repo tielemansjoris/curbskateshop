@@ -2,14 +2,14 @@
   body.front .zone-wrapper .region-postscript-first, 
   body.front .zone-wrapper .region-postscript-second {
   	max-width: 100%;
-  	margin-bottom: 10px;
+  	margin-bottom: 20px;
   }
   #zone-postscript,
   #zone-content {
-  	padding: 10px;
+  	padding: 0 0 10px 0;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 	div#block-megamenu-menu-social-connection {
 		display: none;
 	}
@@ -29,13 +29,33 @@
 		text-indent: 0;
 		background-image: none;
 	}
+	#block-megamenu-main-menu a {
+	}
 	div#block-megamenu-main-menu {
 		width: 100%;
 	}
 	.responsive-menus {
-		text-align: center;
+		width: 180px !important;
+		ul#rm-removed {
+			background-color: $black !important;
+			width: 100% !important;
+			li.megamenu-slot {
+				background-color: transparent;
+				padding-left: 0px;
+			}
+			h3, h2 {
+				padding-left: 10px;
+				margin-bottom: 0px;
+			}
+		}
+		span.toggler {
+			background-color: $black !important;
+			font-family: "bebas", "Open Sans", sans-serif;
+			width: 40px;
+			border-bottom: none !important;
+		}
 		.megamenu-parent-title {
-			margin: 5px !important;
+			margin-bottom: 10px !important;
 		}
 		a,
 		a.home-menu {
@@ -46,14 +66,39 @@
 			display: block;
 			border: none !important;
 		}
-		.megamenu-slot {
-			background-color: transparent !important;
-			padding: 5px !important;
-			height: 15px !important;
-			margin-left: 50px !important;
-			a {
-				color: $gray-medium !important;
-			}
-		}
+	}
+	#block-megamenu-main-menu .megamenu-parent .megamenu-slot a {
+	    color: $white;
+		width: 100% !important;
+		height: 15px !important;
+		font-size: 15px !important;
+		padding: 5px !important;
+		display: block;
+	}
+	body.front .zone-wrapper .region-content h2.block-title,
+	body.front .zone-wrapper .region-postscript-first h2.block-title,
+	body.front .zone-wrapper .region-postscript-second h2.block-title {
+		top: 20px;
+		left: 20px;
+	}
+	body.front .zone-wrapper .region-content h2.block-title, 
+	body.front .zone-wrapper .region-content .field-name-field-link-shop-now,
+	body.front .zone-wrapper .region-postscript-first h2.block-title, 
+	body.front .zone-wrapper .region-postscript-first .field-name-field-link-shop-now,
+	body.front .zone-wrapper .region-postscript-second h2.block-title, 
+	body.front .zone-wrapper .region-postscript-second .field-name-field-link-shop-now {
+		left: 20px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	body.front .region-postscript-third .block-views-display-products-block-1 .views-row,
+	.page-shop ul.all-products .views-row,
+	.block-about-us .field-type-image, .block-about-us .field-type-text-long,
+	.ds-2col > .group-left,
+	.ds-2col > .group-right
+	 {
+		width: 100%;
 	}
 }

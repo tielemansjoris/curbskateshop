@@ -84,7 +84,7 @@ function example_style_settings() {
   $form['responsive_menus_simple_text'] = array(
     '#type' => 'textfield',
     '#title' => t('Text to display for menu toggle button'),
-    '#default_value' => variable_get('responsive_menus_simple_text', '☰ Menu'),
+    '#default_value' => variable_get('responsive_menus_simple_text', 'Menu'),
   );
   $form['responsive_menus_media_size'] = array(
     '#type' => 'textfield',
@@ -107,7 +107,7 @@ function example_style_settings() {
 function example_style_js_settings() {
   $js_settings = array();
   $js_settings['selectors'] = variable_get('responsive_menus_css_selectors', '#main-menu');
-  $js_settings['toggler_text'] = variable_get('responsive_menus_simple_text', '☰ Menu');
+  $js_settings['toggler_text'] = variable_get('responsive_menus_simple_text', 'Menu');
   $js_settings['media_size'] = variable_get('responsive_menus_media_size', 768);
 
   return $js_settings;

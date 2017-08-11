@@ -496,7 +496,7 @@ function responsive_menus_simple_style_settings() {
   $form['responsive_menus_simple_text'] = array(
     '#type' => 'textarea',
     '#title' => t('Text or HTML for the menu toggle button'),
-    '#default_value' => variable_get('responsive_menus_simple_text', '☰ Menu'),
+    '#default_value' => variable_get('responsive_menus_simple_text', 'Menu'),
   );
   $form['responsive_menus_media_size'] = array(
     '#type' => 'textfield',
@@ -521,7 +521,7 @@ function responsive_menus_simple_style_settings() {
  */
 function responsive_menus_simple_style_js_settings($js_defaults = array()) {
   $js_settings = array(
-    'toggler_text' => responsive_menus_var_get('responsive_menus_simple_text', '☰ Menu', $js_defaults),
+    'toggler_text' => responsive_menus_var_get('responsive_menus_simple_text', 'Menu', $js_defaults),
     'selectors' => responsive_menus_explode_list('responsive_menus_css_selectors', '#main-menu', $js_defaults),
     'media_size' => responsive_menus_var_get('responsive_menus_media_size', 768, $js_defaults),
     'media_unit' => responsive_menus_var_get('responsive_menus_media_unit', 'px', $js_defaults),

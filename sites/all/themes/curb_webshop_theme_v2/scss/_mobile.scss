@@ -10,6 +10,21 @@
   }
 }
 @media screen and (max-width: 768px) {
+
+	.zone-menu .block-menu ul.menu li.home-link-mobile {
+		display: inline-block !important;
+		a {
+			display: inline-block;
+			background: url('../logo.png') no-repeat center;
+			background-size: contain;
+			background-color: transparent !important;
+			background-size: 100px;
+		    height: 50px;
+		    width: 75px;
+			text-indent: -999px;
+			border: none !important;
+		}
+	}
 	.range-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
 		width: 85%;
 	}
@@ -52,7 +67,14 @@
 	#block-megamenu-main-menu a {
 	}
 	div#block-megamenu-main-menu {
-		width: 100%;
+		width: 35%;
+	}
+	div#block-menu-menu-home-link {
+		float: left;
+		padding: 0px;
+		ul {
+			margin-top: -10px;
+		}
 	}
 	.responsive-menus {
 		width: 180px !important;

@@ -610,12 +610,6 @@ body.page-checkout .fieldset-wrapper {
     margin-bottom: 15px;
     padding-top: 0px; }
 
-  .responsive-menus.responsified .responsive-menus-simple li {
-    border-top: solid 1px #373737; }
-    .responsive-menus.responsified .responsive-menus-simple li li.megamenu-slot {
-      border: none;
-      padding-left: 30px; }
-
   .responsive-menus.responsified .responsive-menus-simple li.first {
     border-top: none; }
 
@@ -672,6 +666,14 @@ body.page-checkout .fieldset-wrapper {
       padding: 15px !important;
       display: block;
       border: none !important; }
+
+  .responsive-menus.responsified .responsive-menus-simple li {
+    border-top: solid 1px #373737; }
+    .responsive-menus.responsified .responsive-menus-simple li li.megamenu-slot {
+      border: none;
+      padding-left: 30px; }
+    .responsive-menus.responsified .responsive-menus-simple li.megamenu-parent-1 h2.megamenu-parent-title {
+      margin-bottom: -10px !important; }
 
   #block-megamenu-main-menu .megamenu-parent .megamenu-slot a {
     color: #7d7d7d;

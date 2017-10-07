@@ -15,6 +15,8 @@
 	    	font-size: 18px;
 	    	margin-top: 65px;
 	    	margin-bottom: 10px;
+	    	word-spacing: 3px;
+	    	letter-spacing: 1px;
 		}
 		.field-type-text-with-summary {
 			color: $gray-light;
@@ -23,6 +25,7 @@
 			color: $green-hover;
 			font-family: "bebas", "Open Sans", sans-serif;
 	    	font-weight: 700;
+	    	word-spacing: 3px;
 		}
 	}
 	.region-content .view-blog .view-content .views-row-last {

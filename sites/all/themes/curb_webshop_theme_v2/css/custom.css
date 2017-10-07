@@ -126,7 +126,8 @@
 
 body {
   background-color: black;
-  color: white; }
+  color: white;
+  word-spacing: 2px; }
   body a:link {
     color: #46d476; }
     body a:link:hover {
